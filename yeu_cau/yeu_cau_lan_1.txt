@@ -1,0 +1,20 @@
+﻿5 giờ thứ 2 và thứ 5 báo cáo
+	- Tên đề tài
+	- Chức năng
+	- database
+
+thông tin:
+	- Tên: Nguyễn Phúc Thịnh
+	- CĐTH16 PMC
+	- 0786976985
+	- thinh02438@gmail.com
+	- https://www.facebook.com/thedarkangel024
+	
+	- Tên : Vũ Quốc Thiên
+	- CĐTH16 PMC
+	- 0782328156
+	- vuquocthien8156@gmail.com
+	- https://www.facebook.com/thien.vuquoc.75	
+
+- tạo repository
+	https://github.com/vuquocthien8156/do_an_tot_nghiep
