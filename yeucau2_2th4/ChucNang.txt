@@ -1,7 +1,8 @@
 ﻿- Chức năng app
 	+ Đăng nhập (FB , SĐT, Email)
 	+ Đăng xuất
-	+ Đổi mật khẩu 
+	+ Đổi mật khẩu
+	+ Skip
 	+ Quản lý tài khoản (Cập nhập thông tin , đổi ảnh đại diện , xem lịch sử ĐƠN HÀNG)
 	+ Xem món (Thức uống , đồ ăn)
 	+ Yêu thích (local or server)
@@ -13,7 +14,7 @@
 	+ Tích điểm
 	+ Share
 	+ Thanh Toán
-	+ Review
+	+ Review(Rating , comment)
 
 - Web
 	+ Đăng nhập (FB , SĐT, Email)
