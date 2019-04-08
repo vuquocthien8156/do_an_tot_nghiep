@@ -91,7 +91,7 @@
 
 - table : Donhang
 	+ ma_don_hang : int (primary key)
-	+ ma_khach_hang : int (foreign key(NguoiDung))
+	+ ma_khach_hang : int (foreign key(ThongTinGiaoHang))
 	+ ngay_lap : text
 	+ khuyen_mai : int (foreign key(KhuyenMai))
 	+ phi_ship : int
@@ -115,20 +115,23 @@
 	+ ma_chi_nhanh  : int
 	+ ten_chi_nhanh : text
 	+ dia_chi : text
-	+ latiture : text -----*****
-	+ longitude : text ----*****
+	+ latiture : text
+	+ longitude : text
 	+ ngay_khai_truong : text
 	+ gio_mo_cua : text
 	+ gio_dong_cua : text
-	+ khu vuc : int foreign key(KhuVuc)
 	+ da_xoa : int(1)
 
 -----------------------
 
-  - table : KhuVuc
-  	+ ma_khu_vuc : int (primary key)
-  	+ ten_khu_vuc : int
-  	+ da_xoa : int(1)
+- table : ThongTinGiaoHang
+	+ ma_thong_tin : int (primary key)
+	+ tai_khoan : int (foreign key(TaiKhoan))
+	+ ten_nguoi_nhan : text
+	+ so_dien_thoai : text
+	+ dia_chi : text
+	+ chinh : int(1)
+	+ da_xoa : int(1)
 
 -----------------------
 
@@ -140,7 +143,6 @@
 	+ gioi_tinh : int(1)
 	+ diem_tich : int
 	+ email : text
-	+ dia_chi : text
 	+ avata : text
 	+ sinh_nhat : text
 
