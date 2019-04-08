@@ -1,0 +1,192 @@
+﻿- table : SanPham
+	+ ma_so : int (primary key)
+	+ ma_chu : text
+	+ ten : text
+	+ gia_san_pham : bigint -- mặc định size nhỏ
+	+ gia_tang_size : bigint -- số tiền cộng thêm khi tăng size
+	+ loai_sp : int (foreign key(LoaiSanPham))
+	+ ngay_ra_mat : text
+	+ hinh_san_pham : text
+	+ so_lan_dat : int
+	+ mo_ta : text
+	+ daxoa : int(1)
+-----------------------
+
+- table : SanPhamYeuThich
+	+ ma_yeu_thich : int (primary key)
+	+ ma_san_pham : int (foreign key(SanPham))
+	+ ma_khach_hang : int (foreign key(NguoiDung))
+	+ thich : int(1)
+
+-----------------------
+
+- table : LoaiSanPham
+	+ ma_loai_sp : int primary key
+	+ ten_loai_sp : int
+	+ loai_chinh : int(1) --- 1 Thức ăn , 2 Đồ uống , ---- 3 Thức ăn kèm
+	+ da_xoa : int
+
+-----------------------
+
+- table : TinTuc
+	+ ma_tin_tuc : int (primary key)
+	+ ten_tin_tuc : text
+	+ noi_dung : text
+	+ ngay_dang : text
+	+ hinh_tin_tuc : text
+	+ da_xoa : int(1)
+
+-----------------------
+
+- table : KhuyenMai
+	+ ma_khuyen_mai : int (primary key)
+	+ ma_code : text
+	+ hinh_anh : text
+	+ ten_khuyen_mai : text
+	+ mo_ta : text
+	+ so_phan_tram : int
+	+ so_tien : bigint
+	+ so_sp_qui_dinh : int
+	+ so_sp_tang_kem : int
+	+ gioi_han_so_code : int
+	+ ngay_bat_dau : text
+	+ ngay_ket_thuc : text
+	+ so_tien_qui_dinh_toi_thieu : int
+	+ da_xoa : int(1)
+
+-----------------------
+
+- table : ChiTietKhuyenMai
+	+ ma_khuyen_mai : int  (primary key) (foreign key(KhuyenMai))
+	+ ma_sp : int (primary key) (foreign key(SanPham))
+	+ loai_sp : int (primary key) (foreign key(LoaiSanPham))
+	+ bat_buoc_hay_tang : int
+	+ da_xoa : int(1)
+
+-----------------------
+
+- table : HinhAnh
+	+ ma_hinh : int (primary key)
+	+ object_id : int (primary key)
+	+ kieu : int(1) (primary key) --- sản phẩm ? tin tức ?
+	+ url : text
+	+ da_xoa : int(1)
+
+-----------------------
+
+- table : TrangThaiDonHang
+	+ ma_trang_thai : int primary key
+	+ ten_trang_thai : text
+	+ da_xoa : int(1)
+
+-----------------------
+
+- table : ChiTietTrangThaiDonHang
+	+ ma_don_hang : int (primary key)
+	+ trang_thai : int (primary key)  (foreign key(TrangThaiDonHang))
+	+ thoi_gian : text
+	+ da_xoa : int
+
+-----------------------
+
+- table : Donhang
+	+ ma_don_hang : int (primary key)
+	+ ma_khach_hang : int (foreign key(NguoiDung))
+	+ ngay_lap : text
+	+ khuyen_mai : int (foreign key(KhuyenMai))
+	+ phi_ship : int
+	+ tong_tien : int
+	+ ghi_chu : text
+
+-----------------------
+
+- table : ChiTietDonHang
+	+ ma_don_hang : int (primary key) (foreign key(DonHang))
+	+ ma_san_pham : int (primary key) (foreign key(SanPham))
+	+ so_luong : int
+	+ don_gia : bigint
+	+ gia_khuyen_mai : bigint
+	+ thanh_tien : bigint
+	+ ghi_chu : text
+
+-----------------------
+
+- table : ChiNhanh
+	+ ma_chi_nhanh  : int
+	+ ten_chi_nhanh : text
+	+ dia_chi : text
+	+ latiture : text -----*****
+	+ longitude : text ----*****
+	+ ngay_khai_truong : text
+	+ gio_mo_cua : text
+	+ gio_dong_cua : text
+	+ khu vuc : int foreign key(KhuVuc)
+	+ da_xoa : int(1)
+
+-----------------------
+
+  - table : KhuVuc
+  	+ ma_khu_vuc : int (primary key)
+  	+ ten_khu_vuc : int
+  	+ da_xoa : int(1)
+
+-----------------------
+
+- table : NguoiDung
+	+ ma_nguoi_dung : int (primary key)
+	+ ten_nguoi_dung : text
+	+ tai_khoan : int (foreign key(TaiKhoan))
+	+ so_dien_thoai : text
+	+ gioi_tinh : int(1)
+	+ diem_tich : int
+	+ email : text
+	+ dia_chi : text
+	+ avata : text
+	+ sinh_nhat : text
+
+-----------------------
+
+ - table : TaiKhoan
+ 	+ ma_tai_khoan : int (primary key)
+	+ so_dien_thoai : text
+	+ email : text
+ 	+ mat_khau : text
+	+ dang_nhap_lan_cuoi : text -- Thời gian đăng nhập lần cuối cùng
+ 	+ xac_thuc : int(1)
+	+ block : int(1)
+
+ ----------------------
+
+ - table : Quyen
+ 	+ ma_so : int (primary key)
+ 	+ ma_chu : text
+ 	+ ten_quyen : text
+ 	+ quyen_he_thong : int --- 1 system , 2 created
+ 	+ da_xoa : int(1)
+
+ ----------------------
+
+ - table : PhanQuyen
+ 	+ ma : int (primary key)
+ 	+ tai_khoan : int  (foreign key(TaiKhoan))
+ 	+ quyen_cho_phep : int  (foreign key(Quyen))
+ 	+ da_xoa : int(1)
+
+-----------------------
+
+ - table : BinhLuan
+ 	+ ma_binh_luan : int (primary key)
+ 	+ tai_khoan : int (foreign key(TaiKhoan))
+ 	+ san_pham : int (foreign key(SanPham))
+ 	+ noi_dung : text
+ 	+ thoi_gian : text
+ 	+ hinh_anh : text
+ 	+ parent_id : int --- Đây là bình luận phải hồi của ...
+ 	+ da_xoa : int(1)
+
+-----------------------
+
+ - table : DanhGia
+ 	+ ma_tai_khoan : int (foreign key(TaiKhoan))
+ 	+ ma_san_pham : int (foreign key(SanPham))
+ 	+ so_diem : int

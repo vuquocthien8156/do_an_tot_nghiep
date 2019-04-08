@@ -1,0 +1,5 @@
+- Program type already present: android.support.design.widget.CoordinatorLayout$Behavior (Android)
+https://stackoverflow.com/questions/49112190/error-program-type-already-present-android-support-design-widget-coordinatorl
+
+- 200: Server generated an error: 145: API calls from the server require an appsecret_proof argument (Account kit API)
+https://stackoverflow.com/questions/40529501/facebook-account-kit-require-an-appsecret-proof-argument-error

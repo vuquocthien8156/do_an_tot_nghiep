@@ -1,0 +1,8 @@
+- Actionbar or Toolbar
+https://stackoverflow.com/questions/27665018/what-is-the-difference-between-action-bar-and-newly-introduced-toolbar
+
+- Fragment or Activity
+https://www.quora.com/When-should-I-use-Fragments-over-Activities-in-Android-and-why
+
+- MVC vs MVP
+https://medium.com/cr8resume/make-you-hand-dirty-with-mvp-model-view-presenter-eab5b5c16e42
