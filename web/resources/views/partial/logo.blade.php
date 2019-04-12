@@ -1,0 +1,1 @@
+@svg('logo-01', 'logo-icon')
