@@ -1,0 +1,44 @@
+// app
+$app-main-color: #5149E8;
+$app-primary-background-color: white;
+$app-secondary-background-color: #ebebec;
+$app-footer-color: #424142;
+$app-footer-copyright-color: #686868;
+$app-text-color: #424142;
+
+$app-grid-breakpoints: (
+	xxl: 1440px
+);
+
+
+// bootstrap custom
+$font-family-sans-serif: Roboto, "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$primary: $app-main-color;
+$font-size-base: 0.875rem;
+$btn-border-radius: 0;
+$border-radius: 0;
+$link-color: #007bff;
+
+
+
+
+
+$app-header-color: #404041;
+$app-main-color2: #D69227;
+$app-form-input-color: #007bff;
+$app-button-color: #5149E8;
+$app-table-header-color: #3ACCE1;
+$gray-disable: #bcbec0;
+$background: #252735;
+$foreground: #2c3e50;
+$foreground-light:#34495e;
+$size:30px;
+$ratio:1.2;
+$transition-time:0.3s;
+$orange-color: #D69227;;
+$blue-color: #007bff;;
+$orange-background-color: #D69227;;
+
+
+$table-border-color: white;
+$table-striped-row-background-color: #ebebec;

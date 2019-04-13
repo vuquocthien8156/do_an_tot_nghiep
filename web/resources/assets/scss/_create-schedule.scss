@@ -1,0 +1,114 @@
+@import "variables";
+
+#calendar {
+	position: relative;
+	width: 100%;
+	background-color: #ebebeb;
+	font-weight: 700;
+
+	.clndr {
+		margin: 0;
+		box-sizing: border-box;
+
+		.clndr-controls, td {
+			border: 2px solid #AAA;
+		}
+		.clndr-controls {
+			position: relative;
+			padding: 14px;
+			background-color: #414141;
+			color: white;
+			text-align: center;
+		}
+		.clndr-control-button {
+			position: absolute;
+			top: 14px;
+			cursor: pointer;
+			user-select: none;
+			&:not(.rightalign) {
+				left: 20px;
+			}
+			&.rightalign {
+				right: 20px !important;
+			}
+		}
+		.clndr-table {
+			width: 100%;
+			text-align: center;
+			thead {
+				background-color: lighten($app-main-color2, 10%);
+				td {
+					width: 14.2857%;
+					padding: 14px 0;
+					font-weight: bolder;
+					border-top: none !important;
+					@media (min-width: 412px){
+						padding: 14px 14px;
+					}
+				}
+			}
+			tbody {
+				background-color: white;
+				td {
+					width: 14.2857%;
+					height: 55px;
+					padding: 10px 0;
+					&:not(.disabled):not(.past) {
+						cursor: pointer;
+					}
+					@media (min-width: 412px) {
+						height: 66px;
+						padding: 24px 0;
+					}
+				}
+			}
+		}
+
+		.past {
+			background-color: #DDD;
+		}
+		.day.disabled {
+			background-color: #BBB;
+		}
+		.day.active {
+			background-color: lighten(#007bff, 15%) !important;
+		}
+	}
+}
+
+#list-schedule {
+	table {
+		text-align: center;	
+		td {
+			.material-icons, .fa-check-circle {
+				font-size: 24px;
+				vertical-align: middle;
+				&:not(.disabled) {
+					cursor: pointer;
+				}
+				&.disabled {
+					cursor: default;
+				}
+				&.approve {
+					color: #3CE81A;
+					&.disabled {
+						color: lighten(#3CE81A, 20%);
+					}
+				}
+				&.edit {
+					color: #2d98f1;
+					&.disabled {
+						color: lighten(#2d98f1, 20%);
+					}
+				}
+				&.delete {
+					color: red;
+					&.disabled {
+						color: lighten(red, 20%);
+					}
+				}
+
+			}
+		}
+	}
+}
