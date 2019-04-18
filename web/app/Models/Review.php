@@ -1,8 +1,0 @@
-<?php
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
-
-class Review extends BaseModel {
-    protected $table = 'review';
-}
