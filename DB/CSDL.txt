@@ -107,6 +107,7 @@
 	+ don_gia : bigint
 	+ gia_khuyen_mai : bigint
 	+ thanh_tien : bigint
+	+ parent_id : int
 	+ ghi_chu : text
 
 -----------------------
@@ -126,7 +127,7 @@
 
 - table : ThongTinGiaoHang
 	+ ma_thong_tin : int (primary key)
-	+ tai_khoan : int (foreign key(TaiKhoan))
+	+ tai_khoan : int (foreign key(NguoiDung))
 	+ ten_nguoi_nhan : text
 	+ so_dien_thoai : text
 	+ dia_chi : text
@@ -142,26 +143,15 @@
 	+ gioi_tinh : int(1)
 	+ diem_tich : int
 	+ ngay_sinh: date
-	+ trang_thai: int
 	+ updated_at: date
 	+ created_at: date
-	+ dia_chi: text
 	+ facebook_id: text
 	+ email: text
 	+ provider: text
 	+ provider_id: text
 	+ password: text
 	+ remember_token: text
------------------------
-
- - table : TaiKhoan
- 	+ id: int (primary key)
-	+ ten_dang_nhap : text
- 	+ mat_khau : text
-	+ dang_nhap_lan_cuoi : text -- Thời gian đăng nhập lần cuối cùng
- 	+ xac_thuc : int(1)
 	+ trang_thai : int(1)
-
  ----------------------
 
  - table : Quyen
@@ -175,7 +165,7 @@
 
  - table : PhanQuyen
  	+ ma : int (primary key)
- 	+ tai_khoan : int  (foreign key(TaiKhoan))
+ 	+ tai_khoan : int  (foreign key(NguoiDung))
  	+ quyen_cho_phep : int  (foreign key(Quyen))
  	+ da_xoa : int(1)
 
@@ -183,7 +173,7 @@
 
  - table : BinhLuan
  	+ ma_binh_luan : int (primary key)
- 	+ tai_khoan : int (foreign key(TaiKhoan))
+ 	+ tai_khoan : int (foreign key(NguoiDung))
  	+ san_pham : int (foreign key(SanPham))
  	+ noi_dung : text
  	+ thoi_gian : text
@@ -194,6 +184,6 @@
 -----------------------
 
  - table : DanhGia
- 	+ ma_tai_khoan : int (foreign key(TaiKhoan))
+ 	+ ma_tai_khoan : int (foreign key(NguoiDung))
  	+ ma_san_pham : int (foreign key(SanPham))
  	+ so_diem : int
