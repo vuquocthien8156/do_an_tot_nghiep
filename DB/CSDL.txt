@@ -147,8 +147,6 @@
 	+ created_at: date
 	+ facebook_id: text
 	+ email: text
-	+ provider: text
-	+ provider_id: text
 	+ password: text
 	+ remember_token: text
 	+ trang_thai : int(1)
