@@ -143,6 +143,7 @@
 	+ gioi_tinh : int(1)
 	+ diem_tich : int
 	+ ngay_sinh: date
+	+ dia_chi : text
 	+ updated_at: date
 	+ created_at: date
 	+ facebook_id: text
