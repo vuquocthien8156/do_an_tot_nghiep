@@ -2,8 +2,9 @@
 	+ ma_so : int (primary key)
 	+ ma_chu : text
 	+ ten : text
-	+ gia_san_pham : bigint -- mặc định size nhỏ
-	+ gia_tang_size : bigint -- số tiền cộng thêm khi tăng size
+	+ gia_san_pham : bigint -- mặc định size nhỏ S
+	+ gia_vua : bigint  --- M
+	+ gia_lon : bigint  --- L
 	+ loai_sp : int (foreign key(LoaiSanPham))
 	+ ngay_ra_mat : text
 	+ hinh_san_pham : text
@@ -105,6 +106,7 @@
 	+ ma_san_pham : int (primary key) (foreign key(SanPham))
 	+ so_luong : int
 	+ don_gia : bigint
+	+ kich_co : text --- S , M , L
 	+ gia_khuyen_mai : bigint
 	+ thanh_tien : bigint
 	+ parent_id : int
