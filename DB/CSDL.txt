@@ -186,3 +186,8 @@
 	+ duyet : int(1)
  	+ da_xoa : int(1)
  	
+-----------------------
+
+ - table : CamOnDanhGia
+ 	+ ma_danh_gia : int (primary key)
+	+ tai_khoan : int (foreign key(NguoiDung))
