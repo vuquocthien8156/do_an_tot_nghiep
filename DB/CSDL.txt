@@ -183,5 +183,6 @@
  	+ thoi_gian : text
  	+ hinh_anh : text
  	+ parent_id : int --- Đây là bình luận phải hồi của ...
+	+ duyet : int(1)
  	+ da_xoa : int(1)
  	
