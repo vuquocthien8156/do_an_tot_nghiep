@@ -53,6 +53,7 @@
 	+ ngay_bat_dau : text
 	+ ngay_ket_thuc : text
 	+ so_tien_qui_dinh_toi_thieu : int
+	+ hien_slider : boolean
 	+ da_xoa : int(1)
 
 -----------------------
@@ -172,19 +173,15 @@
 
 -----------------------
 
- - table : BinhLuan
- 	+ ma_binh_luan : int (primary key)
+ - table : DanhGia
+ 	+ ma_danh_gia : int (primary key)
  	+ tai_khoan : int (foreign key(NguoiDung))
  	+ san_pham : int (foreign key(SanPham))
+	+ so_diem : int
+	+ tieu_de : text
  	+ noi_dung : text
  	+ thoi_gian : text
  	+ hinh_anh : text
  	+ parent_id : int --- Đây là bình luận phải hồi của ...
  	+ da_xoa : int(1)
-
------------------------
-
- - table : DanhGia
- 	+ ma_tai_khoan : int (foreign key(NguoiDung))
- 	+ ma_san_pham : int (foreign key(SanPham))
- 	+ so_diem : int
+ 	
