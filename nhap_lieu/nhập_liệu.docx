@@ -1,0 +1,285 @@
+
+------------------------ Thêm loại sản phẩm ----------------------
+	INSERT INTO main.loaisp(
+		id, ten_loai, loai_chinh, da_xoa)
+		VALUES (1, , 'trà sữa' , 2 , 0);
+
+	INSERT INTO main.loaisp(
+		id, ten_loai, loai_chinh, da_xoa)
+		VALUES (2, 'Trà tươi' , 2 , 0);
+	
+	INSERT INTO main.loaisp(
+		id, ten_loai, loai_chinh, da_xoa)
+		VALUES (3, 'Trà sủi bọt' , 2 , 0);
+		
+	INSERT INTO main.loaisp(
+		id, ten_loai, loai_chinh, da_xoa)
+		VALUES (4, 'Trà đặc biệt' , 2, 0);
+	
+	INSERT INTO main.loaisp(
+		id, ten_loai, loai_chinh, da_xoa)
+		VALUES (5, 'Kem tuyết' , 2 , 0);
+		
+	INSERT INTO main.loaisp(
+		id, ten_loai, loai_chinh, da_xoa)
+		VALUES (6, 'Topping' , 3 , 0);
+	
+	INSERT INTO main.loaisp(
+		id, ten_loai, loai_chinh, da_xoa)
+		VALUES (7, 'Bánh tráng' , 1 , 0);
+
+	INSERT INTO main.loaisp(
+		id, ten_loai, loai_chinh, da_xoa)
+		VALUES (8, 'Khô' , 1 , 0);
+	
+	INSERT INTO main.loaisp(
+		id, ten_loai, loai_chinh, da_xoa)
+		VALUES (9, 'Đồ chiên' , 1 , 0);
+		
+
+------------------------- Thêm sản phẩm ----------------------------
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham  , mo_ta ,so_lan_dat, da_xoa)
+		VALUES (1, 'TU01' , 'Trà sữa Ceylon' , 23000 , 29000 , 35000 , 41000 , , 35000 , 1 , '1/2/2012' , 'images/products/sp01' ,'Mô tả' , 0 , 0);
+
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (2, 'TU02', 'Trà sữa hoa lục trà' , 32000 , 38000 ,44000, 1 , '' , 'images/products/sp02' , '' , 0 , 0);
+		
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (3, 'TU03',  'Trà sữa vải' , 26000 , 32000 , 38000 , 1 , '' , 'images/products/sp03' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (4, 'TU04',  'Trà sữa gạo nâu' , 32000 , 38000 , 42000 , 1 , '' , 'images/products/sp04' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (5, 'TU05',  'Trà sữa trà xanh' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '' , 'images/products/sp05' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (6, 'TU06',  'Trà sữa 4 mùa xuân' , 35000 , 41000 , 47000 , 1 , '' , 'images/products/sp06' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (7, 'TU07',  'Trà sữa 3Q' , 34000 , 40000 , 46000 , 1 , '' , 'images/products/sp07' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (8, 'TU08',  'Trà sữa trân châu' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '' , 'images/products/sp08' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (9, 'TU09',  'Trà sữa trà xanh Nhật Bản' , 41000 , 47000 , 53000 , 1 , '' , 'images/products/sp09' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (10, 'TU10',  'Trà sữa dâu tây' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '' , 'images/products/sp10' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (11, 'TU11',  'Trà sữa olong' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '' , 'images/products/sp11' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (12, 'TU12',  'Trà sữa kiwi' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp12' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (13, 'TU13',  'Trà sữa Taichi' , 31000 , 37000 , 43000 , 1 , '' , 'images/products/sp13' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (14, 'TU14',  'Trà sữa socola' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp14' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (15, 'TU15',  'Trà sữa khoai môn' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp15' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (16, 'TU16',  'Trà sữa cà phê' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '' , 'images/products/sp16' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (17, 'TU17', 'Trà sữa caramen' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp17' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (18, 'TU18', 'Trà sữa bạc hà' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp18' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (19, 'TU19', 'Trà sữa vani' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp19' , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (20, 'TU20', 'Trà sữa đào' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp20 , '' , 0 , 0);
+	
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (21 , 'TU21', 'Trà sữa hạnh nhân' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp21 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (22 , 'TU22', 'Trà sữa trà tươi' , 31000 , 37000 , 43000 , 1 , '' , 'images/products/sp22 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (23 , 'TU23', 'Trà sữa mật ong' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp23 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (24 , 'TU24', 'Trà sữa Alisan' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp24 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (25 , 'TU25', 'Trà sữa quan âm' , 32000 , 38000 , 44000 , 1 , '' , 'images/products/sp25 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (26 , 'TU26', 'Hồng trà Ceylon' , 29000 , 35000 , 41000  , 2 , '' , 'images/products/sp26 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (27 , 'TU27', 'Trà cao sơn olong' , 29000 , 35000 , 41000  , 2 , '' , 'images/products/sp27 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (28 , 'TU28', 'Cao sơn trà tươi' , 29000 , 35000 , 41000   , 2 , '' , 'images/products/sp28 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (29 , 'TU29', 'Trà olong đào' , 29000 , 35000 , 41000  , 2 , '' , 'images/products/sp29 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (30 , 'TU30', 'Trà quan âm' , 29000 , 35000 , 41000 , 2 , '' , 'images/products/sp30 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (31 , 'TU31', 'Trà 4 mùa xuân' , 35000 , 41000 , 47000 , 2 , '' , 'images/products/sp31 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (32 , 'TU32', 'Trà Alishan lạnh' , 29000 , 35000 , 41000 , 2 , '' , 'images/products/sp32 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (33 , 'TU33', 'Trà bóng mưa' , 32000 , 38000 , 44000 , 2 , '' , 'images/products/sp33 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (34 , 'TU34', 'Trà olong hoa quế' ,35000 , 41000 , 47000 , 2, '' , 'images/products/sp34 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (35 , 'TU35', 'Trà bí đao sủi bọt' , 42000 , 48000 , 54000 , 3, '' , 'images/products/sp35 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (36 , 'TU36', 'Trà xanh sủi bọt' , 38000 , 44000 , 50000 , 3, '' , 'images/products/sp36 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (37 , 'TU37', 'Hồng trà sủi bọt' , 38000 , 44000 , 50000 , 3, '' , 'images/products/sp37 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (38 , 'TU38', 'Trà tươi sủi bọt' , 38000 , 44000 , 50000 , 3, '' , 'images/products/sp38 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (39 , 'TU39', 'Sủi bọt lá cây' , 41000 , 47000 , 53000 , 3, '' , 'images/products/sp39 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (40 , 'TU40', 'Trà Alishan sủi bọt' , 41000 , 47000 , 53000 , 3, '' , 'images/products/sp40 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (41 , 'TU41', 'Trà gạo nâu sủi bọt' , 41000 , 47000 , 53000 , 3, '' , 'images/products/sp41 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (42 , 'TU42', 'Trà quan âm sủi bọt' , 41000 , 47000 , 53000 , 3, '' , 'images/products/sp42 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (43 , 'TU43', 'Trà olong sủi bọt' , 41000 , 47000 , 53000 , 3, '' , 'images/products/sp43 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (44 , 'TU44', 'Trà 4 mùa xuân sủi bọt' , 41000 , 47000 , 53000 , 3, '' , 'images/products/sp44 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (45 , 'TU45', 'Trà hoa sủi bọt' , 38000 , 44000 , 50000 , 3, '' , 'images/products/sp45 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (46 , 'TU46', 'Trà thanh xuân' , 35000 , 41000 , 47000 , 4, '' , 'images/products/sp46 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (47 , 'TU47', 'Trà Raspberry' , 38000 , 44000 , 50000 , 4, '' , 'images/products/sp47 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (48 , 'TU48', 'Trà xanh Heineken' , 35000 , 41000 , 47000 , 4, '' , 'images/products/sp48 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (49 , 'TU49', 'Trà xanh tiger đào' , 32000 , 38000 , 44000 , 4, '' , 'images/products/sp49 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (50 , 'TU50', 'Trà xanh xí muội' , 29000 , 35000 , 41000  , 4, '' , 'images/products/sp50 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (51 , 'TU51', 'Trà xanh chanh dây' , 32000 , 38000 , 44000 , 4, '' , 'images/products/sp51 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (52 , 'TU52', 'Trà xanh kiwi' , 35000 , 41000 , 47000 , 4, '' , 'images/products/sp52 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (3 , 'TU53', 'Kem tuyết dâu' , 31000 , 37000 , 43000 , 5, '' , 'images/products/sp53 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (54 , 'TU54', 'Kem tuyết vải' , 31000 , 37000 , 43000 , 5, '' , 'images/products/sp54 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (55 , 'TU55', 'Kem tuyết chanh dây' , 31000 , 37000 , 43000 , 5, '' , 'images/products/sp55 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (56 , 'TU56', 'Kem tuyết socola' , 38000 , 44000 , 50000 , 5, '' , 'images/products/sp56 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (57 , 'TU57', 'Kem tuyết đào' , 38000 , 44000 , 50000 , 5, '' , 'images/products/sp57 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (58 , 'TU58', 'Kem tuyết caramen' , 41000 , 47000 , 53000 , 5, '' , 'images/products/sp58 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (59 , 'TU59', 'Kem tuyết trà xanh Nhật Bản' , 44000 ,  ,  , 5, '' , 'images/products/sp59 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (60 , 'TU60', 'Kem tuyết xoài' , 31000 , 37000 , 43000 , 5, '' , 'images/products/sp60 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (61 , 'TU61', 'Trân châu đen' , 10000 ,  ,  , 6, '' , 'images/products/sp61 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (62 , 'TU62', 'Trân châu trắng ' , 10000 ,  ,  , 6, '' , 'images/products/sp62 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (63 , 'TU63', 'Thạch trái cây' , 6000 ,  ,  , 6, '' , 'images/products/sp63 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (64 , 'TU64', 'Bánh flan' , 10000 ,  ,  , 6, '' , 'images/products/sp64 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (65 , 'TU65', 'Milk foam' , 10000 ,  ,  , 6, '' , 'images/products/sp65 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (66 , 'TA6', 'Bánh tráng long an' , 30000 , 40000 , 50000 , 7, '' , 'images/products/sp66 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (67 , 'TA67', 'Bánh tráng sate tỏi' , 20000 , 27000 , 33000 , 7, '' , 'images/products/sp67 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (68 , 'TA68', 'Bánh tráng tôm' , 20000 , 28000 , 32000 , 7, '' , 'images/products/sp68 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (69 , 'TA69', 'Khô gà lá chanh' , 50000 , 80000 , 110000 , 8, '' , 'images/products/sp69 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (70 , 'TA70', 'Khô mực' , 40000 , 60000 , 75000 , 8, '' , 'images/products/sp70 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (71 , 'TA71', 'Cá viên chiên' , 25000 ,  ,  , 9, '' , 'images/products/sp71 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (72 , 'TA72', 'Xúc xích chiên' , 30000 ,  ,  , 9, '' , 'images/products/sp72 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (73 , 'TA73', 'Khoai tây chiên' , 30000 ,  ,  , 9, '' , 'images/products/sp73 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (74 , 'TA74', 'Hoành thánh chiên' , 25000 ,  ,  , 9, '' , 'images/products/sp74 , '' , 0 , 0);
+	INSERT INTO main.sanpham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
+		VALUES (75 , 'TA75', 'Trứng cút chiên' , 25000 ,  ,  , 9, '' , 'images/products/sp75 , '' , 0 , 0);
