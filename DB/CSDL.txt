@@ -83,7 +83,7 @@
 
 -----------------------
 
-- table : tranthaidonhang
+- table : trangthaidonhang
 
 	+ ma_trang_thai : int primary key
 	+ trang_thai_ton_tai: int(1)
