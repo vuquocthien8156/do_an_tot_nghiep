@@ -1,4 +1,4 @@
-﻿- table : SanPham
+- table : SanPham
 	+ ma_so : int (primary key)
 	+ ma_chu : text
 	+ ten : text

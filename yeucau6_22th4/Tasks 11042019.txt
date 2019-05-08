@@ -1,0 +1,24 @@
+﻿-----------------------------------
+T5 (18.04)
+
+Web
+1. Hoàn thiện đăng ký (kiểm tra), đăng nhập
+2. Quản lý tài khoản, quản lý sản phẩm, phân quyền tài khoản
+
+App:
+1. Xây dựng trang chủ
+2. Hiển thị danh sách sản phẩm
+3. Tìm kiếm sản phẩm
+4. Xem & chỉnh sửa tài khoản
+
+---------------------------------------
+1. quản lý sản phẩm (thêm, xóa, sửa, tìm kiếm)
+2. chỉnh lại giao diện
+3. api
+
+
+------app
+1. search địa chỉ giao hàng
+2. Detail sản phẩm (đánh giá, bình luận, yêu thích)
+3. Thêm giỏ hàng
+4. 
