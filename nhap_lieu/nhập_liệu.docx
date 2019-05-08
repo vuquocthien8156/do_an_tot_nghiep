@@ -2,7 +2,7 @@
 ------------------------ Thêm loại sản phẩm ----------------------
 	INSERT INTO main.LoaiSanPham(
 		ma_loai_sp, ten_loai, loai_chinh, daxoa)
-		VALUES (1, , 'trà sữa' , 2 , 0);
+		VALUES (1, 'trà sữa' , 2 , 0);
 
 	INSERT INTO main.LoaiSanPham(
 		ma_loai_sp, ten_loai, loai_chinh, daxoa)
