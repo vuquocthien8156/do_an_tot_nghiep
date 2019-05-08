@@ -32,7 +32,7 @@
 		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (8, 'Khô' , 1 , 0);
 	
-	INSERT INTO main.loaisp(
+	INSERT INTO main."LoaiSanPham"(
 		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (9, 'Đồ chiên' , 1 , 0);
 		
