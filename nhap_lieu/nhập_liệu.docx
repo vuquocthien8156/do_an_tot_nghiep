@@ -1,289 +1,289 @@
 
 ------------------------ Thêm loại sản phẩm ----------------------
-	INSERT INTO main.loaisp(
-		id, ten_loai, loai_chinh, da_xoa)
+	INSERT INTO main.LoaiSanPham(
+		ma_loai_sp, ten_loai, loai_chinh, daxoa)
 		VALUES (1, , 'trà sữa' , 2 , 0);
 
-	INSERT INTO main.loaisp(
-		id, ten_loai, loai_chinh, da_xoa)
+	INSERT INTO main.LoaiSanPham(
+		ma_loai_sp, ten_loai, loai_chinh, daxoa)
 		VALUES (2, 'Trà tươi' , 2 , 0);
 	
-	INSERT INTO main.loaisp(
-		id, ten_loai, loai_chinh, da_xoa)
+	INSERT INTO main.LoaiSanPham(
+		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
 		VALUES (3, 'Trà sủi bọt' , 2 , 0);
 		
-	INSERT INTO main.loaisp(
-		id, ten_loai, loai_chinh, da_xoa)
+	INSERT INTO main.LoaiSanPham(
+		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
 		VALUES (4, 'Trà đặc biệt' , 2, 0);
 	
-	INSERT INTO main.loaisp(
-		id, ten_loai, loai_chinh, da_xoa)
+	INSERT INTO main.LoaiSanPham(
+		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
 		VALUES (5, 'Kem tuyết' , 2 , 0);
 		
-	INSERT INTO main.loaisp(
-		id, ten_loai, loai_chinh, da_xoa)
+	INSERT INTO main.LoaiSanPham(
+		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
 		VALUES (6, 'Topping' , 3 , 0);
 	
-	INSERT INTO main.loaisp(
-		id, ten_loai, loai_chinh, da_xoa)
+	INSERT INTO main.LoaiSanPham(
+		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
 		VALUES (7, 'Bánh tráng' , 1 , 0);
 
-	INSERT INTO main.loaisp(
-		id, ten_loai, loai_chinh, da_xoa)
+	INSERT INTO main.LoaiSanPham(
+		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
 		VALUES (8, 'Khô' , 1 , 0);
 	
 	INSERT INTO main.loaisp(
-		id, ten_loai, loai_chinh, da_xoa)
+		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
 		VALUES (9, 'Đồ chiên' , 1 , 0);
 		
 
 ------------------------- Thêm sản phẩm ----------------------------
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham  , mo_ta ,so_lan_dat, da_xoa)
-		VALUES (1, 'TU01' , 'Trà sữa Ceylon' , 23000 , 29000 , 35000 , 41000 , , 35000 , 1 , '1/2/2012' , 'images/products/sp01' ,'Sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham  , mo_ta ,so_lan_dat, daxoa)
+		VALUES (1, 'TU01' , 'Trà sữa Ceylon' , 23000 , 29000 , 35000 , 41000 , , 35000 , 1 , '1/2/2012' , 'images/product/sp01.jpg' ,'Sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
 
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (2, 'TU02', 'Trà sữa hoa lục trà' , 32000 , 38000 ,44000, 1 , '1/2/2012' , 'images/products/sp02' , 'sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (2, 'TU02', 'Trà sữa hoa lục trà' , 32000 , 38000 ,44000, 1 , '1/2/2012' , 'images/product/sp02.jpg' , 'sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
 		
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (3, 'TU03',  'Trà sữa vải' , 26000 , 32000 , 38000 , 1 , '1/2/2012' , 'images/products/sp03' , 'sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà vải. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (3, 'TU03',  'Trà sữa vải' , 26000 , 32000 , 38000 , 1 , '1/2/2012' , 'images/product/sp03.jpg' , 'sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà vải. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (4, 'TU04',  'Trà sữa gạo nâu' , 32000 , 38000 , 42000 , 1 , '1/2/2012' , 'images/products/sp04' , 'sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (4, 'TU04',  'Trà sữa gạo nâu' , 32000 , 38000 , 42000 , 1 , '1/2/2012' , 'images/product/sp04.jpg' , 'sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (5, 'TU05',  'Trà sữa trà xanh' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/products/sp05' , 'trà Xanh nguyên chất (Lục Trà) được pha với sữa làm nên món trà sữa thanh mát thơm nhẹ.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (5, 'TU05',  'Trà sữa trà xanh' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/product/sp05.jpg' , 'trà Xanh nguyên chất (Lục Trà) được pha với sữa làm nên món trà sữa thanh mát thơm nhẹ.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (6, 'TU06',  'Trà sữa 4 mùa xuân' , 35000 , 41000 , 47000 , 1 , '1/2/2012' , 'images/products/sp06' , 'trà Xanh nguyên chất (Lục Trà) được pha với sữa làm nên món trà sữa thanh mát thơm nhẹ.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (6, 'TU06',  'Trà sữa 4 mùa xuân' , 35000 , 41000 , 47000 , 1 , '1/2/2012' , 'images/product/sp06.jpg' , 'trà Xanh nguyên chất (Lục Trà) được pha với sữa làm nên món trà sữa thanh mát thơm nhẹ.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (7, 'TU07',  'Trà sữa 3Q' , 34000 , 40000 , 46000 , 1 , '1/2/2012' , 'images/products/sp07' , 'Trà sữa Oolong đậm đà được dùng kèm với trân châu dai dai, Pudding trứng béo ngọt và Sương sáo thanh mát' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (7, 'TU07',  'Trà sữa 3Q' , 34000 , 40000 , 46000 , 1 , '1/2/2012' , 'images/product/sp07.jpg' , 'Trà sữa Oolong đậm đà được dùng kèm với trân châu dai dai, Pudding trứng béo ngọt và Sương sáo thanh mát' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (8, 'TU08',  'Trà sữa trân châu' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/products/sp08' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (8, 'TU08.jpg',  'Trà sữa trân châu' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/product/sp08' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (9, 'TU09',  'Trà sữa trà xanh Nhật Bản' , 41000 , 47000 , 53000 , 1 , '1/2/2012' , 'images/products/sp09' , 'Trà Xanh nguyên chất (Lục Trà) được pha với sữa làm nên món trà sữa thanh mát thơm nhẹ.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (9, 'TU09',  'Trà sữa trà xanh Nhật Bản' , 41000 , 47000 , 53000 , 1 , '1/2/2012' , 'images/product/sp09.jpg' , 'Trà Xanh nguyên chất (Lục Trà) được pha với sữa làm nên món trà sữa thanh mát thơm nhẹ.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (10, 'TU10',  'Trà sữa dâu tây' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/products/sp10' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (10, 'TU10',  'Trà sữa dâu tây' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/product/sp10.jpg' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (11, 'TU11',  'Trà sữa olong' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/products/sp11' , 'Vị trà Oolong đậm đà cùng hương thơm đặc trưng được hòa chung với sữa đem lại hương vị nồng nàn' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (11, 'TU11',  'Trà sữa olong' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/product/sp11.jpg' , 'Vị trà Oolong đậm đà cùng hương thơm đặc trưng được hòa chung với sữa đem lại hương vị nồng nàn' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (12, 'TU12',  'Trà sữa kiwi' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/products/sp12' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (12, 'TU12',  'Trà sữa kiwi' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/product/sp12.jpg' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (13, 'TU13',  'Trà sữa Taichi' , 31000 , 37000 , 43000 , 1 , '1/2/2012' , 'images/products/sp13' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (13, 'TU13',  'Trà sữa Taichi' , 31000 , 37000 , 43000 , 1 , '1/2/2012' , 'images/product/sp13.jpg' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (14, 'TU14',  'Trà sữa socola' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/products/sp14' , 'Vị kẹo bơ cứng (Toffee) hòa quyện với trà sữa Earl Grey tạo nên mùi thơm đặc trưng của Hokkaido' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (14, 'TU14',  'Trà sữa socola' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/product/sp14.jpg' , 'Vị kẹo bơ cứng (Toffee) hòa quyện với trà sữa Earl Grey tạo nên mùi thơm đặc trưng của Hokkaido' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (15, 'TU15',  'Trà sữa khoai môn' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/products/sp15' , 'Hương vị Khoai Môn được hòa cùng với sữa tạo nên thức uống thơm béo.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (15, 'TU15',  'Trà sữa khoai môn' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/product/sp15.jpg' , 'Hương vị Khoai Môn được hòa cùng với sữa tạo nên thức uống thơm béo.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (16, 'TU16',  'Trà sữa cà phê' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/products/sp16' , 'Hương vị Chocolate đậm đà hòa tan sâu trong vị sữa hảo hạng' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (16, 'TU16',  'Trà sữa cà phê' , 29000 , 35000 , 41000 , , 35000 , 41000 , 1 , '1/2/2012' , 'images/product/sp16.jpg' , 'Hương vị Chocolate đậm đà hòa tan sâu trong vị sữa hảo hạng' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (17, 'TU17', 'Trà sữa caramen' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/products/sp17' , 'Hương vị Chocolate đậm đà hòa tan sâu trong vị sữa hảo hạng' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (17, 'TU17', 'Trà sữa caramen' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/product/sp17.jpg' , 'Hương vị Chocolate đậm đà hòa tan sâu trong vị sữa hảo hạng' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (18, 'TU18', 'Trà sữa bạc hà' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/products/sp18' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (18, 'TU18', 'Trà sữa bạc hà' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/product/sp18.jpg' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (19, 'TU19', 'Trà sữa vani' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/products/sp19' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (19, 'TU19', 'Trà sữa vani' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/product/sp19.jpg' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen.' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (20, 'TU20', 'Trà sữa đào' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/products/sp20 , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đào' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (20, 'TU20', 'Trà sữa đào' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/product/sp20.jpg , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đào' , 0 , 0);
 	
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (21 , 'TU21', 'Trà sữa hạnh nhân' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/products/sp21 , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà hạnh nhân.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (22 , 'TU22', 'Trà sữa trà tươi' , 31000 , 37000 , 43000 , 1 , '1/2/2012' , 'images/products/sp22 , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (23 , 'TU23', 'Trà sữa mật ong' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/products/sp23 , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa mật ong.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (24 , 'TU24', 'Trà sữa Alisan' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/products/sp24 , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (25 , 'TU25', 'Trà sữa quan âm' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/products/sp25 , 'Trà sữa Oolong đậm đà được dùng kèm với trân châu dai dai, Pudding trứng béo ngọt và Sương sáo thanh mát.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (26 , 'TU26', 'Hồng trà Ceylon' , 29000 , 35000 , 41000  , 2 , '3/4/2014' , 'images/products/sp26 , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (27 , 'TU27', 'Trà cao sơn olong' , 29000 , 35000 , 41000  , 2 , '1/2/2012' , 'images/products/sp27 , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (28 , 'TU28', 'Cao sơn trà tươi' , 29000 , 35000 , 41000   , 2 , '1/2/2012' , 'images/products/sp28 , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (29 , 'TU29', 'Trà olong đào' , 29000 , 35000 , 41000  , 2 , '1/2/2012' , 'images/products/sp29 , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (30 , 'TU30', 'Trà quan âm' , 29000 , 35000 , 41000 , 2 , '1/2/2012' , 'images/products/sp30 , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (31 , 'TU31', 'Trà 4 mùa xuân' , 35000 , 41000 , 47000 , 2 , '22/12/2018' , 'images/products/sp31 , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (32 , 'TU32', 'Trà Alishan lạnh' , 29000 , 35000 , 41000 , 2 , '1/2/2012' , 'images/products/sp32 , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (33 , 'TU33', 'Trà bóng mưa' , 32000 , 38000 , 44000 , 2 , '22/12/2018' , 'images/products/sp33 , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (34 , 'TU34', 'Trà olong hoa quế' ,35000 , 41000 , 47000 , 2, '3/4/2014' , 'images/products/sp34 , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (35 , 'TU35', 'Trà bí đao sủi bọt' , 42000 , 48000 , 54000 , 3, '1/2/2012' , 'images/products/sp35 , 'Trà Bá Tước chiết xuất từ hương thảo mộc của quả Bergamot (loại quả lai giữa Cam và Chanh), có vị thơm nồng' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (36 , 'TU36', 'Trà xanh sủi bọt' , 38000 , 44000 , 50000 , 3, '1/2/2012' , 'images/products/sp36 , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (37 , 'TU37', 'Hồng trà sủi bọt' , 38000 , 44000 , 50000 , 3, '1/2/2012' , 'images/products/sp37 , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (38 , 'TU38', 'Trà tươi sủi bọt' , 38000 , 44000 , 50000 , 3, '1/2/2012' , 'images/products/sp38 , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (39 , 'TU39', 'Sủi bọt lá cây' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/products/sp39 , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (40 , 'TU40', 'Trà Alishan sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/products/sp40 , 'Loại trà đặc trưng của vùng đồi núi A Lý ở Đài Loan, vị trà thanh nhẹ, hơi chát.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (41 , 'TU41', 'Trà gạo nâu sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/products/sp41 , 'Loại trà đặc trưng của vùng đồi núi A Lý ở Đài Loan, vị trà thanh nhẹ, hơi chát.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (42 , 'TU42', 'Trà quan âm sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/products/sp42 , 'Loại trà đặc trưng của vùng đồi núi A Lý ở Đài Loan, vị trà thanh nhẹ, hơi chát.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (43 , 'TU43', 'Trà olong sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/products/sp43 , 'Vị trà đậm và có mùi thơm đặc trưng' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (44 , 'TU44', 'Trà 4 mùa xuân sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/products/sp44 , 'Vị trà đậm và có mùi thơm đặc trưng' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (45 , 'TU45', 'Trà hoa sủi bọt' , 38000 , 44000 , 50000 , 3, '3/4/2014' , 'images/products/sp45 , 'Vị trà đậm và có mùi thơm đặc trưng' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (46 , 'TU46', 'Trà thanh xuân' , 35000 , 41000 , 47000 , 4, '3/4/2014' , 'images/products/sp46 , 'Vị chanh muối dùng kèm với thạch Ai-yu thanh mát và hạt trân châu trắng.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (47 , 'TU47', 'Trà Raspberry' , 38000 , 44000 , 50000 , 4, '3/4/2014' , 'images/products/sp47 , 'Vị thanh mát, chua ngọt thơm ngon, dùng với hạt é' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (48 , 'TU48', 'Trà xanh Heineken' , 35000 , 41000 , 47000 , 4, '22/12/2018' , 'images/products/sp48 , 'Vị thanh mát, chua ngọt thơm ngon, dùng với hạt é' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (49 , 'TU49', 'Trà xanh tiger đào' , 32000 , 38000 , 44000 , 4, '22/12/2018' , 'images/products/sp49 , 'Vị thanh mát, chua ngọt thơm ngon, dùng với hạt é' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (50 , 'TU50', 'Trà xanh xí muội' , 29000 , 35000 , 41000  , 4, '3/4/2014' , 'images/products/sp50 , 'Vị thanh mát, chua ngọt thơm ngon, dùng với hạt é' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (51 , 'TU51', 'Trà xanh chanh dây' , 32000 , 38000 , 44000 , 4, ''3/4/2014 , 'images/products/sp51 , 'Trà Xanh Chanh Dây chua ngọt uống cùng topping trân châu đen dai và thạch dừa tươi mát' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (52 , 'TU52', 'Trà xanh kiwi' , 35000 , 41000 , 47000 , 4, '3/4/2014' , 'images/products/sp52 , 'Trà bí đao ngọt ngào kết hợp với trà Alisan, cho ra ly trà thơm, ngọt dịu dễ uống' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (3 , 'TU53', 'Kem tuyết dâu' , 31000 , 37000 , 43000 , 5, '3/4/2014' , 'images/products/sp53 , 'Vị thơm đặc trưng của Trà Đen đi cùng Mật Ong, kết hợp với sự tươi mát của Đào đá xay' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (54 , 'TU54', 'Kem tuyết vải' , 31000 , 37000 , 43000 , 5, '3/4/2014' , 'images/products/sp54 , 'Vị thơm đặc trưng của Trà Đen đi cùng Mật Ong, kết hợp với sự tươi mát của Đào đá xay' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (55 , 'TU55', 'Kem tuyết chanh dây' , 31000 , 37000 , 43000 , 5, '3/4/2014' , 'images/products/sp55 , 'Vị chanh dây ngọt ngào dùng kèm với Thạch Dừa dai và thơm' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (56 , 'TU56', 'Kem tuyết socola' , 38000 , 44000 , 50000 , 5, '3/4/2014' , 'images/products/sp56 , 'Vị Socola thơm ngon được xay chung với sữa cho ra ly đá xay Socola ngọt ngào' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (57 , 'TU57', 'Kem tuyết đào' , 38000 , 44000 , 50000 , 5, '3/4/2014' , 'images/products/sp57 , 'Trà xanh thanh mát, hòa cùng hương vị Đào ngọt ngào.' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (58 , 'TU58', 'Kem tuyết caramen' , 41000 , 47000 , 53000 , 5, '3/4/2014' , 'images/products/sp58 , 'Vị Socola thơm ngon được xay chung với sữa cho ra ly đá xay Socola ngọt ngào' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (59 , 'TU59', 'Kem tuyết trà xanh Nhật Bản' , 44000 ,  ,  , 5, '3/4/2014' , 'images/products/sp59 , 'Matcha xay cùng với sữa, kết hợp với lớp Kem (Whipping Cream) phía trên' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (60 , 'TU60', 'Kem tuyết xoài' , 31000 , 37000 , 43000 , 5, '3/4/2014' , 'images/products/sp60 , 'Trà Alisan đặc trưng hòa cùng vị Xoài ngọt ngào' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (61 , 'TU61', 'Trân châu đen' , 10000 ,  ,  , 6, '1/2/2012' , 'images/products/sp61 , 'Gợi ý thức uống kết hợp : Trà Xanh Gong Cha, Trà Đen Gong Cha, Trà Earl Grey Gong Cha, Trà Alisan Gong Cha, Trà Oolong Gong Cha, Trà Bí Đao Gong Cha, Trà Oolong, Trà Earl Grey' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (62 , 'TU62', 'Trân châu trắng ' , 10000 ,  ,  , 6, '1/2/2012' , 'images/products/sp62 , 'Gợi ý thức uống kết hợp : Trà Xanh Gong Cha, Trà Đen Gong Cha, Trà Earl Grey Gong Cha, Trà Alisan Gong Cha, Trà Oolong Gong Cha, Trà Bí Đao Gong Cha, Trà Oolong, Trà Earl Grey 
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (21 , 'TU21', 'Trà sữa hạnh nhân' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/product/sp21.jpg , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà hạnh nhân.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (22 , 'TU22', 'Trà sữa trà tươi' , 31000 , 37000 , 43000 , 1 , '1/2/2012' , 'images/product/sp22.jpg , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (23 , 'TU23', 'Trà sữa mật ong' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/product/sp23.jpg , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa mật ong.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (24 , 'TU24', 'Trà sữa Alisan' , 32000 , 38000 , 44000 , 1 , '3/4/2014' , 'images/product/sp24.jpg , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (25 , 'TU25', 'Trà sữa quan âm' , 32000 , 38000 , 44000 , 1 , '1/2/2012' , 'images/product/sp25.jpg , 'Trà sữa Oolong đậm đà được dùng kèm với trân châu dai dai, Pudding trứng béo ngọt và Sương sáo thanh mát.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (26 , 'TU26', 'Hồng trà Ceylon' , 29000 , 35000 , 41000  , 2 , '3/4/2014' , 'images/product/sp26.jpg , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (27 , 'TU27', 'Trà cao sơn olong' , 29000 , 35000 , 41000  , 2 , '1/2/2012' , 'images/product/sp27.jpg , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (28 , 'TU28', 'Cao sơn trà tươi' , 29000 , 35000 , 41000   , 2 , '1/2/2012' , 'images/product/sp28.jpg , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (29 , 'TU29', 'Trà olong đào' , 29000 , 35000 , 41000  , 2 , '1/2/2012' , 'images/product/sp29.jpg , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (30 , 'TU30', 'Trà quan âm' , 29000 , 35000 , 41000 , 2 , '1/2/2012' , 'images/product/sp30.jpg , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (31 , 'TU31', 'Trà 4 mùa xuân' , 35000 , 41000 , 47000 , 2 , '22/12/2018' , 'images/product/sp31.jpg , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (32 , 'TU32', 'Trà Alishan lạnh' , 29000 , 35000 , 41000 , 2 , '1/2/2012' , 'images/product/sp32.jpg , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (33 , 'TU33', 'Trà bóng mưa' , 32000 , 38000 , 44000 , 2 , '22/12/2018' , 'images/product/sp33.jpg , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (34 , 'TU34', 'Trà olong hoa quế' ,35000 , 41000 , 47000 , 2, '3/4/2014' , 'images/product/sp34.jpg , 'Vị trà đậm và có mùi thơm đặc trưng.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (35 , 'TU35', 'Trà bí đao sủi bọt' , 42000 , 48000 , 54000 , 3, '1/2/2012' , 'images/product/sp35.jpg , 'Trà Bá Tước chiết xuất từ hương thảo mộc của quả Bergamot (loại quả lai giữa Cam và Chanh), có vị thơm nồng' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (36 , 'TU36', 'Trà xanh sủi bọt' , 38000 , 44000 , 50000 , 3, '1/2/2012' , 'images/product/sp36.jpg , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (37 , 'TU37', 'Hồng trà sủi bọt' , 38000 , 44000 , 50000 , 3, '1/2/2012' , 'images/product/sp37.jpg , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (38 , 'TU38', 'Trà tươi sủi bọt' , 38000 , 44000 , 50000 , 3, '1/2/2012' , 'images/product/sp38.jpg , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (39 , 'TU39', 'Sủi bọt lá cây' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/product/sp39.jpg , 'Vị trà Đen (Hồng Trà) đặc trưng, đậm trà và thơm nồng nàn' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (40 , 'TU40', 'Trà Alishan sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/product/sp40.jpg , 'Loại trà đặc trưng của vùng đồi núi A Lý ở Đài Loan, vị trà thanh nhẹ, hơi chát.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (41 , 'TU41', 'Trà gạo nâu sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/product/sp41.jpg , 'Loại trà đặc trưng của vùng đồi núi A Lý ở Đài Loan, vị trà thanh nhẹ, hơi chát.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (42 , 'TU42', 'Trà quan âm sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/product/sp42.jpg , 'Loại trà đặc trưng của vùng đồi núi A Lý ở Đài Loan, vị trà thanh nhẹ, hơi chát.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (43 , 'TU43', 'Trà olong sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/product/sp43.jpg , 'Vị trà đậm và có mùi thơm đặc trưng' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (44 , 'TU44', 'Trà 4 mùa xuân sủi bọt' , 41000 , 47000 , 53000 , 3, '3/4/2014' , 'images/product/sp44 , 'Vị trà đậm và có mùi thơm đặc trưng' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (45 , 'TU45', 'Trà hoa sủi bọt' , 38000 , 44000 , 50000 , 3, '3/4/2014' , 'images/product/sp45.jpg , 'Vị trà đậm và có mùi thơm đặc trưng' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (46 , 'TU46', 'Trà thanh xuân' , 35000 , 41000 , 47000 , 4, '3/4/2014' , 'images/product/sp46.jpg , 'Vị chanh muối dùng kèm với thạch Ai-yu thanh mát và hạt trân châu trắng.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (47 , 'TU47', 'Trà Raspberry' , 38000 , 44000 , 50000 , 4, '3/4/2014' , 'images/product/sp47.jpg , 'Vị thanh mát, chua ngọt thơm ngon, dùng với hạt é' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (48 , 'TU48', 'Trà xanh Heineken' , 35000 , 41000 , 47000 , 4, '22/12/2018' , 'images/product/sp48.jpg , 'Vị thanh mát, chua ngọt thơm ngon, dùng với hạt é' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (49 , 'TU49', 'Trà xanh tiger đào' , 32000 , 38000 , 44000 , 4, '22/12/2018' , 'images/product/sp49.jpg , 'Vị thanh mát, chua ngọt thơm ngon, dùng với hạt é' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (50 , 'TU50', 'Trà xanh xí muội' , 29000 , 35000 , 41000  , 4, '3/4/2014' , 'images/product/sp50.jpg , 'Vị thanh mát, chua ngọt thơm ngon, dùng với hạt é' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (51 , 'TU51', 'Trà xanh chanh dây' , 32000 , 38000 , 44000 , 4, ''3/4/2014 , 'images/product/sp51.jpg , 'Trà Xanh Chanh Dây chua ngọt uống cùng topping trân châu đen dai và thạch dừa tươi mát' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (52 , 'TU52', 'Trà xanh kiwi' , 35000 , 41000 , 47000 , 4, '3/4/2014' , 'images/product/sp52.jpg , 'Trà bí đao ngọt ngào kết hợp với trà Alisan, cho ra ly trà thơm, ngọt dịu dễ uống' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (3 , 'TU53', 'Kem tuyết dâu' , 31000 , 37000 , 43000 , 5, '3/4/2014' , 'images/product/sp53.jpg , 'Vị thơm đặc trưng của Trà Đen đi cùng Mật Ong, kết hợp với sự tươi mát của Đào đá xay' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (54 , 'TU54', 'Kem tuyết vải' , 31000 , 37000 , 43000 , 5, '3/4/2014' , 'images/product/sp54.jpg , 'Vị thơm đặc trưng của Trà Đen đi cùng Mật Ong, kết hợp với sự tươi mát của Đào đá xay' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (55 , 'TU55', 'Kem tuyết chanh dây' , 31000 , 37000 , 43000 , 5, '3/4/2014' , 'images/product/sp55.jpg , 'Vị chanh dây ngọt ngào dùng kèm với Thạch Dừa dai và thơm' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (56 , 'TU56', 'Kem tuyết socola' , 38000 , 44000 , 50000 , 5, '3/4/2014' , 'images/product/sp56.jpg , 'Vị Socola thơm ngon được xay chung với sữa cho ra ly đá xay Socola ngọt ngào' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (57 , 'TU57', 'Kem tuyết đào' , 38000 , 44000 , 50000 , 5, '3/4/2014' , 'images/product/sp57.jpg , 'Trà xanh thanh mát, hòa cùng hương vị Đào ngọt ngào.' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (58 , 'TU58', 'Kem tuyết caramen' , 41000 , 47000 , 53000 , 5, '3/4/2014' , 'images/product/sp58.jpg , 'Vị Socola thơm ngon được xay chung với sữa cho ra ly đá xay Socola ngọt ngào' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (59 , 'TU59', 'Kem tuyết trà xanh Nhật Bản' , 44000 ,  ,  , 5, '3/4/2014' , 'images/product/sp59.jpg , 'Matcha xay cùng với sữa, kết hợp với lớp Kem (Whipping Cream) phía trên' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (60 , 'TU60', 'Kem tuyết xoài' , 31000 , 37000 , 43000 , 5, '3/4/2014' , 'images/product/sp60.jpg , 'Trà Alisan đặc trưng hòa cùng vị Xoài ngọt ngào' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (61 , 'TU61', 'Trân châu đen' , 10000 ,  ,  , 6, '1/2/2012' , 'images/product/sp61.jpg , 'Gợi ý thức uống kết hợp : Trà Xanh Gong Cha, Trà Đen Gong Cha, Trà Earl Grey Gong Cha, Trà Alisan Gong Cha, Trà Oolong Gong Cha, Trà Bí Đao Gong Cha, Trà Oolong, Trà Earl Grey' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (62 , 'TU62', 'Trân châu trắng ' , 10000 ,  ,  , 6, '1/2/2012' , 'images/product/sp62.jpg , 'Gợi ý thức uống kết hợp : Trà Xanh Gong Cha, Trà Đen Gong Cha, Trà Earl Grey Gong Cha, Trà Alisan Gong Cha, Trà Oolong Gong Cha, Trà Bí Đao Gong Cha, Trà Oolong, Trà Earl Grey 
 ' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (63 , 'TU63', 'Thạch trái cây' , 6000 ,  ,  , 6, '1/2/2012' , 'images/products/sp63 , 'Gợi ý thức uống kết hợp: Trà Xanh Gong Cha, Trà Alisan Gong Cha, Trà Bí Đao Gong Cha, Trà Đào Đá Tuyết 
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (63 , 'TU63', 'Thạch trái cây' , 6000 ,  ,  , 6, '1/2/2012' , 'images/product/sp63.jpg , 'Gợi ý thức uống kết hợp: Trà Xanh Gong Cha, Trà Alisan Gong Cha, Trà Bí Đao Gong Cha, Trà Đào Đá Tuyết 
 ' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (64 , 'TU64', 'Bánh flan' , 10000 ,  ,  , 6, '1/2/2012' , 'images/products/sp64 , 'Gợi ý thức uống kết hợp : Trà Sữa Earl Grey, Trà Sữa Hokkaido 
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (64 , 'TU64', 'Bánh flan' , 10000 ,  ,  , 6, '1/2/2012' , 'images/product/sp64.jpg , 'Gợi ý thức uống kết hợp : Trà Sữa Earl Grey, Trà Sữa Hokkaido 
 ' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (65 , 'TU65', 'Milk foam' , 10000 ,  ,  , 6, '3/4/2014' , 'images/products/sp65 , 'Gợi ý thức uống kết hợp : Trà Xanh Đào, Trà Alisan Chanh Dây, Trà Alisan Xoài , QQ Chanh Dây Trà Xanh... 
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (65 , 'TU65', 'Milk foam' , 10000 ,  ,  , 6, '3/4/2014' , 'images/product/sp65.jpg , 'Gợi ý thức uống kết hợp : Trà Xanh Đào, Trà Alisan Chanh Dây, Trà Alisan Xoài , QQ Chanh Dây Trà Xanh... 
 ' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (66 , 'TA6', 'Bánh tráng long an' , 30000 , 40000 , 50000 , 7, '22/12/2018' , 'images/products/sp66 , 'vị cay dẻo, thơm nồng vị tỏi long an đặc trưng' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (67 , 'TA67', 'Bánh tráng sate tỏi' , 20000 , 27000 , 33000 , 7, '22/12/2018' , 'images/products/sp67 , 'bánh tráng deo dai kết hợp vị tỏi cay đặc trưng' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (68 , 'TA68', 'Bánh tráng tôm' , 20000 , 28000 , 32000 , 7, '22/12/2018' , 'images/products/sp68 , 'đặc trưng của muối tôm tây ninh ' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (69 , 'TA69', 'Khô gà lá chanh' , 50000 , 80000 , 110000 , 8, '3/4/2014' , 'images/products/sp69 , 'khô gà thơm, cay nhẹ, ngọt bùi vị gà và lá chanh' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (70 , 'TA70', 'Khô mực' , 40000 , 60000 , 75000 , 8, '3/4/2014' , 'images/products/sp70 , 'vị ngọt của mực khô và cay của ớt tươi' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (71 , 'TA71', 'Cá viên chiên' , 25000 ,  ,  , 9, '1/2/2012' , 'images/products/sp71 , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (72 , 'TA72', 'Xúc xích chiên' , 30000 ,  ,  , 9, '1/2/2012' , 'images/products/sp72 , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (73 , 'TA73', 'Khoai tây chiên' , 30000 ,  ,  , 9, '1/2/2012' , 'images/products/sp73 , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (74 , 'TA74', 'Hoành thánh chiên' , 25000 ,  ,  , 9, '1/2/2012' , 'images/products/sp74 , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);
-	INSERT INTO main.sanpham(
-		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , da_xoa)
-		VALUES (75 , 'TA75', 'Trứng cút chiên' , 25000 ,  ,  , 9, '1/2/2012' , 'images/products/sp75 , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (66 , 'TA6', 'Bánh tráng long an' , 30000 , 40000 , 50000 , 7, '22/12/2018' , 'images/product/sp66.jpg , 'vị cay dẻo, thơm nồng vị tỏi long an đặc trưng' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (67 , 'TA67', 'Bánh tráng sate tỏi' , 20000 , 27000 , 33000 , 7, '22/12/2018' , 'images/product/sp67.jpg , 'bánh tráng deo dai kết hợp vị tỏi cay đặc trưng' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (68 , 'TA68', 'Bánh tráng tôm' , 20000 , 28000 , 32000 , 7, '22/12/2018' , 'images/product/sp68.jpg , 'đặc trưng của muối tôm tây ninh ' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (69 , 'TA69', 'Khô gà lá chanh' , 50000 , 80000 , 110000 , 8, '3/4/2014' , 'images/product/sp69.jpg , 'khô gà thơm, cay nhẹ, ngọt bùi vị gà và lá chanh' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (70 , 'TA70', 'Khô mực' , 40000 , 60000 , 75000 , 8, '3/4/2014' , 'images/product/sp70.jpg , 'vị ngọt của mực khô và cay của ớt tươi' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (71 , 'TA71', 'Cá viên chiên' , 25000 ,  ,  , 9, '1/2/2012' , 'images/product/sp71.jpg , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (72 , 'TA72', 'Xúc xích chiên' , 30000 ,  ,  , 9, '1/2/2012' , 'images/product/sp72.jpg , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (73 , 'TA73', 'Khoai tây chiên' , 30000 ,  ,  , 9, '1/2/2012' , 'images/product/sp73.jpg , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (74 , 'TA74', 'Hoành thánh chiên' , 25000 ,  ,  , 9, '1/2/2012' , 'images/product/sp74.jpg , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);
+	INSERT INTO main.SanpPham(
+		ma_so, ma_chu, ten_san_pham , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , so_lan_dat , mo_ta , daxoa)
+		VALUES (75 , 'TA75', 'Trứng cút chiên' , 25000 ,  ,  , 9, '1/2/2012' , 'images/product/sp75.jpg , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0);

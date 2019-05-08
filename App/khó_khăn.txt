@@ -1,0 +1,4 @@
+﻿Màn hình bỉ đẩy lên khi bàn phím xuất hiện.
+	android:windowSoftInputMode=adjustPan
+Layout không Wrap_content với popup window
+	
