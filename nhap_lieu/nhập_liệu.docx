@@ -1,39 +1,39 @@
 
 ------------------------ Thêm loại sản phẩm ----------------------
-	INSERT INTO main.LoaiSanPham(
-		ma_loai_sp, ten_loai, loai_chinh, daxoa)
+	INSERT INTO main."LoaiSanPham"(
+		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (1, 'trà sữa' , 2 , 0);
 
-	INSERT INTO main.LoaiSanPham(
-		ma_loai_sp, ten_loai, loai_chinh, daxoa)
+	INSERT INTO main."LoaiSanPham"(
+		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (2, 'Trà tươi' , 2 , 0);
 	
-	INSERT INTO main.LoaiSanPham(
-		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
+	INSERT INTO main."LoaiSanPham"(
+		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (3, 'Trà sủi bọt' , 2 , 0);
 		
-	INSERT INTO main.LoaiSanPham(
-		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
+	INSERT INTO main."LoaiSanPham"(
+		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (4, 'Trà đặc biệt' , 2, 0);
 	
-	INSERT INTO main.LoaiSanPham(
-		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
+	INSERT INTO main."LoaiSanPham"(
+		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (5, 'Kem tuyết' , 2 , 0);
 		
-	INSERT INTO main.LoaiSanPham(
-		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
+	INSERT INTO main."LoaiSanPham"(
+		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (6, 'Topping' , 3 , 0);
 	
-	INSERT INTO main.LoaiSanPham(
-		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
+	INSERT INTO main."LoaiSanPham"(
+		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (7, 'Bánh tráng' , 1 , 0);
 
-	INSERT INTO main.LoaiSanPham(
-		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
+	INSERT INTO main."LoaiSanPham"(
+		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (8, 'Khô' , 1 , 0);
 	
 	INSERT INTO main.loaisp(
-		ma_loai_sp, ten_loai_sp, loai_chinh, daxoa)
+		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
 		VALUES (9, 'Đồ chiên' , 1 , 0);
 		
 
