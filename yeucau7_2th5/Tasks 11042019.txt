@@ -1,0 +1,11 @@
+﻿
+1. chỉnh lại giao diện
+2. api login fb, api update user, api giỏ hàng, api sản phẩm yêu thích nhất, api load tất cả loại sp, api tìm kiếm sp theo mo ta, 
+api load danh 10 sách sản phẩm có lượng order cao nhất, api sp yêu thích nhất, api thích sp, api đơn hàng
+
+
+------app
+1. search địa chỉ giao hàng
+2. Detail sản phẩm (đánh giá, bình luận, yêu thích)
+3. Thêm giỏ hàng
+4. chỉnh sửa giao diện
