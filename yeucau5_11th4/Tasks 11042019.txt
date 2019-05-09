@@ -1,6 +1,4 @@
------------------------------------
-T5 (18.04)
-
+﻿
 Web
 1. Hoàn thiện đăng ký (kiểm tra), đăng nhập
 2. Quản lý tài khoản, quản lý sản phẩm, phân quyền tài khoản
