@@ -1,12 +1,13 @@
+* Chú ý check size(vì sẽ là 2 sản phẩm khác nhau khi khác size)
 -- thêm sản phẩm (ObjectCart) 
 		+ Mẫu
 		  [
 		  	 ma_khach_hang : ""
 		  	 list : {
-		  	 	object(ma_san_pham , so_luong , parent_id)
-		  	 	object(ma_san_pham , so_luong , parent_id)
-		  	 	object(ma_san_pham , so_luong , parent_id)
-		  	 	object(ma_san_pham , so_luong , parent_id)
+		  	 	object(ma_san_pham , so_luong , size , parent_id)
+		  	 	object(ma_san_pham , so_luong, size , parent_id)
+		  	 	object(ma_san_pham , so_luong, size , parent_id)
+		  	 	object(ma_san_pham , so_luong, size , parent_id)
 		  	 }
 		  ]
 	
