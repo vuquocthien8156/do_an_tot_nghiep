@@ -1,6 +1,7 @@
 - table : GioHang
 	+ ma_khach_hang : Int (Primary key)
 	+ ma_san_pham : Int (Primary key)
+	+ kich_co : text (Primary key)
 	+ so_luong : Int
 	+ parent_id : Int (mã sản phẩm cha) (đánh dấu topping)
 
