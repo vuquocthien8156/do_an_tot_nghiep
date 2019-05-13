@@ -2,7 +2,7 @@
 ------------------------ Thêm loại sản phẩm ----------------------
 	INSERT INTO main."LoaiSanPham"(
 		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
-		VALUES (1, 'trà sữa' , 2 , 0, null , null);
+		VALUES (1, 'Trà sữa' , 2 , 0, null , null);
 
 	INSERT INTO main."LoaiSanPham"(
 		ma_loai_sp, ten_loai_sp, loai_chinh, da_xoa)
@@ -68,7 +68,7 @@
 	
 	INSERT INTO main."SanPham"(
 		ma_so, ma_chu, ten , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , mo_ta , so_lan_dat , daxoa, updated_at , created_at)
-		VALUES (8, 'TU08.jpg',  'Trà sữa trân châu' , 29000 , 35000 , 41000 , 1 , '2012/02/01' , 'images/product/sp08' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0, null , null);
+		VALUES (8, 'TU08.jpg',  'Trà sữa trân châu' , 29000 , 35000 , 41000 , 1 , '2012/02/01' , 'images/product/sp08.jpg' , 'Là sự kết hợp truyền thống giữa trân châu đen dai cùng vị trà sữa trà đen. Thức uống quen thuộc với mọi lứa tuổi.' , 0 , 0, null , null);
 	
 	INSERT INTO main."SanPham"(
 		ma_so, ma_chu, ten , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , mo_ta , so_lan_dat , daxoa, updated_at , created_at)
