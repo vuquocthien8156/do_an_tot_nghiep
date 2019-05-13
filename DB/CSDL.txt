@@ -102,7 +102,7 @@
 
 - table : Donhang
 	+ ma_don_hang : int (primary key)
-	+ ma_khach_hang : int (foreign key(ThongTinGiaoHang))
+	+ thong_tin_giao_hang : text
 	+ ngay_lap : text
 	+ khuyen_mai : int (foreign key(KhuyenMai))
 	+ phi_ship : int
@@ -112,14 +112,15 @@
 -----------------------
 
 - table : ChiTietDonHang
-	+ ma_don_hang : int (primary key) (foreign key(DonHang))
-	+ ma_san_pham : int (primary key) (foreign key(SanPham))
+	+ ma_chi_tiet : int (primary key)
+	+ ma_don_hang : int (foreign key(DonHang))
+	+ ma_san_pham : int (foreign key(SanPham))
 	+ so_luong : int
 	+ don_gia : bigint
 	+ kich_co : text --- S , M , L
 	+ gia_khuyen_mai : bigint
 	+ thanh_tien : bigint
-	+ parent_id : int
+	+ parent_id : int 
 	+ ghi_chu : text
 
 -----------------------
@@ -137,7 +138,7 @@
 
 -----------------------
 
-- table : ThongTinGiaoHang
+- table : SoDiaChi
 	+ ma_thong_tin : int (primary key)
 	+ tai_khoan : int (foreign key(NguoiDung))
 	+ ten_nguoi_nhan : text
