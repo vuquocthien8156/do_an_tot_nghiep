@@ -9,3 +9,24 @@ api load danh 10 sách sản phẩm có lượng order cao nhất, api sp yêu t
 2. Detail sản phẩm (đánh giá, bình luận, yêu thích)
 3. Thêm giỏ hàng
 4. chỉnh sửa giao diện
+
+-----------------------
+
+web
+	+ chỉnh giao diện web
+	+ api đơn hàng *
+	+ api giỏ hàng *
+	+ api đăng nhập email pass(check pass null) *
+	+ load chi tiết sản phẩm(thông tin, lấy đáng giá của sản phẩm 2 cái, số cám ơn)
+	+ load tất cả đáng giá *
+	+ api cám ơn 
+	+ load tất cả bình luận con
+	+ thêm bình luận
+	+ thêm đơn hàng
+	+ load chi nhánh (all)
+---
+app
+	+ giao diện chi nhánh
+	+ gắn thêm api
+	+ giao diện điểm thưởng
+	+ giao diện quy định
