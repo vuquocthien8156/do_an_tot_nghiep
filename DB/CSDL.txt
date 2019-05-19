@@ -206,4 +206,4 @@
 
  - table : CamOnDanhGia
  	+ ma_danh_gia : int (primary key)
-	+ tai_khoan : int (foreign key(NguoiDung))
+	+ tai_khoan : int (foreign key(NguoiDung)) (primary key)
