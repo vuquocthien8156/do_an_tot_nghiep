@@ -1,6 +1,7 @@
 ﻿
 - table : GioHang
 	+ id : Int(Primary key)
+	+ ma_chu : text
 	+ ma_khach_hang : Int 
 	+ ma_san_pham : Int
 	+ kich_co : text 
@@ -117,6 +118,7 @@
 
 - table : ChiTietDonHang
 	+ ma_chi_tiet : int (primary key)
+	+ ma_chu : text
 	+ ma_don_hang : int (foreign key(DonHang))
 	+ ma_san_pham : int (foreign key(SanPham))
 	+ so_luong : int
@@ -144,7 +146,7 @@
 
 - table : SoDiaChi
 	+ ma_thong_tin : int (primary key)
-	+ //tai_khoan : int (foreign key(NguoiDung))
+	+ tai_khoan : int (foreign key(NguoiDung))
 	+ ten_nguoi_nhan : text
 	+ so_dien_thoai : text
 	+ dia_chi : text
