@@ -1,13 +1,16 @@
 ﻿
 - table : GioHang
-	+ id : Int(Primary key)
-	+ ma_chu : text
-	+ ma_khach_hang : Int 
-	+ ma_san_pham : Int
+	+ ma_gio_hang : Int(Primary key)
+	+ ma_khach_hang : Int (foreign key)
+	+ ma_san_pham : Int (foreign key)
 	+ kich_co : text 
 	+ so_luong : Int
-	+ parent_id : Int (mã sản phẩm cha) (đánh dấu topping)
-
+----------------------
+- table : ChiTietGioHang
+ 	+ ma_ct_gio_hang : Int (Primary key)
+	+ ma_gio_hang : Int (foreign key(GioHang))
+	+ ma_san_pham : Int (foreign key)
+	+ so_luong : Int
 ----------------------
 
 - table : SanPham
@@ -118,7 +121,6 @@
 
 - table : ChiTietDonHang
 	+ ma_chi_tiet : int (primary key)
-	+ ma_chu : text
 	+ ma_don_hang : int (foreign key(DonHang))
 	+ ma_san_pham : int (foreign key(SanPham))
 	+ so_luong : int
@@ -126,13 +128,19 @@
 	+ kich_co : text --- S , M , L
 	+ gia_khuyen_mai : bigint
 	+ thanh_tien : bigint
-	+ parent_id : int 
 	+ ghi_chu : text
 
 -----------------------
+- table : ChiTietThucUong
+	+ so_thu_tu : int (primary key)
+	+ ma_chi_tiet : int (foreign key(SanPham))
+	+ ma_san_pham : int
+	+ don_gia : bigint
+	+ so_luong : int
+-----------------------
 
 - table : ChiNhanh
-	+ ma_chi_nhanh  : int
+	+ ma_chi_nhanh  : int (primary key)
 	+ ten_chi_nhanh : text
 	+ dia_chi : text
 	+ latiture : text
@@ -140,8 +148,14 @@
 	+ ngay_khai_truong : text
 	+ gio_mo_cua : text
 	+ gio_dong_cua : text
+	+ ma_khu_vuc : int
 	+ da_xoa : int(1)
-
+	
+-----------------------
+- table : Khu_Vuc
+	+ ma_khu_vuc : int (primary key)
+	+ ten_khu_vuc : text
+	+ da_xoa : int(1)
 -----------------------
 
 - table : SoDiaChi
