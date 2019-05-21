@@ -1,4 +1,4 @@
-* Chú ý check size(vì sẽ là 2 sản phẩm khác nhau khi khác size)
+﻿* Chú ý check size(vì sẽ là 2 sản phẩm khác nhau khi khác size)
 -- thêm sản phẩm (ObjectCart) 
 		+ Mẫu
 		  [
