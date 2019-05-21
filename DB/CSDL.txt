@@ -5,6 +5,7 @@
 	+ ma_san_pham : Int (foreign key)
 	+ kich_co : text 
 	+ so_luong : Int
+	+ ghi_chu : String
 ----------------------
 - table : ChiTietGioHang
  	+ ma_ct_gio_hang : Int (Primary key)
