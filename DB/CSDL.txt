@@ -110,7 +110,7 @@
 
 - table : Donhang
 	+ ma_don_hang : int (primary key)
-	+ ma_giao_hang : int (foreign key(ThongTinGiaoHang))
+	+ thong_tin_giao_hang : text
 	+ ma_khach_hang
 	+ ngay_lap : text
 	+ khuyen_mai : int (foreign key(KhuyenMai))
