@@ -287,3 +287,108 @@
 	INSERT INTO main."SanPham"(
 		ma_so, ma_chu, ten , gia_san_pham, gia_vua , gia_lon , loai_sp, ngay_ra_mat , hinh_san_pham , mo_ta , so_lan_dat , daxoa, updated_at , created_at)
 		VALUES (75 , 'TA75', 'Trứng cút chiên' , 25000 , 0 , 0 , 9, '2012/02/01' , 'images/product/sp75.jpg' , 'món ăn vặt phù hợp mọi lứa tuổi' , 0 , 0, null , null);
+		
+	
+	-----------------------------------------------------------------------------------------------------------------------------------
+	Nhập khu vưc và chi nhánh
+	
+	INSERT INTO main."KhuVuc"(
+	ma_khu_vuc, ten_khu_vuc, da_xoa)
+	VALUES (1, 'Hồ Chí Minh', 0);
+INSERT INTO main."KhuVuc"(
+	ma_khu_vuc, ten_khu_vuc, da_xoa)
+	VALUES (2, 'Hà Nội', 0);
+INSERT INTO main."KhuVuc"(
+	ma_khu_vuc, ten_khu_vuc, da_xoa)
+	VALUES (3, 'Bình Dương', 0);
+INSERT INTO main."KhuVuc"(
+	ma_khu_vuc, ten_khu_vuc, da_xoa)
+	VALUES (4, 'Đà nẵng', 0);
+
+----------------------------------------------------------------------------------------
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (1, 'T&&T 114 Võ Văn Ngân', '114 Võ Văn Ngân, Quận Thủ Đức, Hồ Chí Minh, Việt Nam' , '10.850440' , '106.760567' , '2000/01/12', '6am' , '10pm' , '0782328156' , 1 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (2, 'T&&T 159 Phạm Ngũ Lão', '159 Phạm Ngũ Lão, Quận 1, Hồ Chí Minh, Việt Nam' , '10.767890' , '106.693840' , '2000/01/12', '6am' , '10pm' , '0779865743' , 1 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (3, 'T&&T 798 Sư Vạn Hạnh', '798 Sư Vạn Hạnh, Quận 10, Hồ Chí Minh, Việt Nam' , '10.773980' , '106.668480' , '2000/01/12', '6am' , '10pm' , '0908764873' , 1 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (4, 'T&&T 670 Nguyễn Duy Trinh', '670 Nguyễn Duy Trinh, Quận 2, Hồ Chí Minh, Việt Nam' , '10.789310' , '106.779160' , '2000/01/12', '6am' , '10pm' , '0909331287' , 1 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (5, 'T&&T 371 Nguyễn Kiệm', '371 Nguyễn Kiệm, Quận Gò Vấp, Hồ Chí Minh, Việt Nam' , '10.817470' , '106.678720' , '2000/01/12', '6am' , '10pm' , '0767345231' , 1 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (6, 'T&&T 8 Hoàng Hoa Thám', '8 Hoàng Hoa Thám, Quận Bình Thạnh, Hồ Chí Minh, Việt Nam' , '10.804650' , '106.692910' , '2000/01/12', '6am' , '10pm' , '0775327612' , 1 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (7, 'T&&T 359 Đỗ Xuân Hợp', '359 Đỗ Xuân Hợp, Quận 9, Hồ Chí Minh, Việt Nam' , '10.822980' , '106.770510' , '2000/01/12', '6am' , '10pm' , '0908711231' , 1 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (8, 'T&&T 313 Nguyễn Thị Thập', '313 Nguyễn Thị Thập, Quận 7, Hồ Chí Minh, Việt Nam' , '10.738260' , '106.724360' , '2000/01/12', '6am' , '10pm' , '0128765239' , 1 , 0);
+
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (9, 'T&&T 259 Kim Mã', '259 Kim Mã, Ba Đình, Hà Nội, Việt Nam' , '21.031160' , '105.822150' , '2001/01/02', '6am' , '10pm' , '0909776554' , 2 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (10, 'T&&T 2 Hồ Tùng Mậu', '2 Hồ Tùng Mậu, Cầu Giấy, Hà Nội, Việt Nam' , '21.037470' , '105.779230' , '2001/01/02', '6am' , '10pm' , '0122365334' , 2 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (11, 'T&&T 30 Hào Nam', '30 Hào Nam, Đống Đa, Hà Nội, Việt Nam' , '21.023890' , '105.831130' , '2001/01/02', '6am' , '10pm' , '0936776435' , 2 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (12, 'T&&T 458 Minh Khai', '458 Minh Khai, Hai Bà Trưng, Hà Nội, Việt Nam' , '20.995120' , '105.856150' , '2001/01/02', '6am' , '10pm' , '0909776772' , 2 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (13, 'T&&T 47 Nguyễn Tuân', '47 Nguyễn Tuân, Thanh Xuân, Hà Nội, Việt Nam' , '20.995220' , '105.805690' , '2001/01/02', '6am' , '10pm' , '01222068875' , 2 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (14, 'T&&T 56 Bà Triệu', '56 Bà Triệu, Hoàn Kiếm, Hà Nội, Việt Nam' , '21.022250' , '105.850460' , '2001/01/02', '6am' , '10pm' , '0909887882' , 2 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (15, 'T&&T 40 Xuân La', '40 Xuân La, Bắc Từ Liêm, Hà Nội, Việt Nam' , '21.066990' , '105.804310' , '2001/01/02', '6am' , '10pm' , '0122477643' , 2 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (16, 'T&&T 287 Nguyễn Văn Cừ', '287 Nguyễn Văn Cừ, Long Biên, Hà Nội, Việt Nam' , '21.045360' , '105.874890' , '2001/01/02', '6am' , '10pm' , '0124567896' , 2 , 0);
+
+---------------- Bình dương (17->24) -----------------------
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (17, 'T&&T Hikari Bình Dương', 'Hikari Bình Dương, Thành phố Thủ Dầu Một, Bình Dương, Việt Nam' , '10.981680' , '106.650490' , '2001/01/02', '6am' , '10pm' , '0909887092' , 3 , 0);
+
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (18, 'T&&T 1 Núi Thành', '1 Núi Thành, Quận Hải Châu, Đà Nẵng, Việt Nam' , '16.075239' , '108.224136' , '2001/01/02', '6am' , '10pm' , '0122209887' , 4 , 0);
+
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+
+	VALUES (19, 'T&&T 461 Trần Hưng Đạo', '461 Trần Hưng Đạo, Quận Sơn Trà, Đà Nẵng, Việt Nam' , '16.064150' , '108.230050' , '2001/01/02', '6am' , '10pm' , '0909880987' , 4 , 0);
+
+INSERT INTO main."ChiNhanh"(
+	ma_chi_nhanh, ten, dia_chi, latitude, longtitude, ngay_khai_truong, gio_mo_cua, gio_dong_cua, so_dien_thoai, ma_khu_vuc, da_xoa)
+	VALUES (20, 'T&&T 435 Lê Duẩn', '435 Lê Duẩn, Quận Thanh Khê, Đà Nẵng, Việt Nam' , '16.067040' , '108.207649' , '2001/01/02', '6am' , '10pm' , '0128990887' , 4 , 0);
+
