@@ -117,7 +117,7 @@
 	+ phi_ship : int
 	+ tong_tien : int
 	+ ghi_chu : text
-
+	+ da_xoa : int
 -----------------------
 
 - table : ChiTietDonHang
