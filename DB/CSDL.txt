@@ -212,11 +212,19 @@
 	+ tieu_de : text
  	+ noi_dung : text
  	+ thoi_gian : text
- 	+ hinh_anh : text
- 	+ parent_id : int --- Đây là bình luận phải hồi của ...
 	+ duyet : int(1)
  	+ da_xoa : int(1)
  	
+-----------------------
+
+ - table : DanhGiaCon
+ 	+ ma_danh_gia_con : int (primary key)
+	+ ma_danh_gia : int (foreign key(DanhGia))
+	+ tai_khoan : int (foreign key(NguoiDung))
+	+ noi_dung : text
+	+ duyet : int(1)
+	+ da_xoa : int(1)
+
 -----------------------
 
  - table : CamOnDanhGia
