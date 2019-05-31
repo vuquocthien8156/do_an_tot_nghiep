@@ -222,6 +222,7 @@
 	+ ma_danh_gia : int (foreign key(DanhGia))
 	+ tai_khoan : int (foreign key(NguoiDung))
 	+ noi_dung : text
+	+ thoi_gian : text
 	+ duyet : int(1)
 	+ da_xoa : int(1)
 
