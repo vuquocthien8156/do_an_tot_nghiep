@@ -71,6 +71,7 @@
 	+ ngay_ket_thuc : text
 	+ so_tien_qui_dinh_toi_thieu : int
 	+ hien_slider : boolean
+	+ ma_san_pham : int
 	+ da_xoa : int(1)
 
 -----------------------
