@@ -1,4 +1,6 @@
 ﻿Màn hình bỉ đẩy lên khi bàn phím xuất hiện.
 	android:windowSoftInputMode=adjustPan
-Layout không Wrap_content với popup window
-	
+
+- Layout không Wrap_content với popup window
+- Popupwindow not show lcation folow view
+- Sửa dụng PlaceAutocompleteFragment(customview , chuyển api cũ thành api mới)

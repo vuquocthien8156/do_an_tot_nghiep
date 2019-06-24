@@ -1,3 +1,10 @@
+﻿- Những app cũ đã từng làm
+
+- Tiki , The Coffee House , Gongcha
+
+- Retrofit
+https://square.github.io/retrofit/
+
 - Actionbar or Toolbar
 https://stackoverflow.com/questions/27665018/what-is-the-difference-between-action-bar-and-newly-introduced-toolbar
 
@@ -6,3 +13,17 @@ https://www.quora.com/When-should-I-use-Fragments-over-Activities-in-Android-and
 
 - MVC vs MVP
 https://medium.com/cr8resume/make-you-hand-dirty-with-mvp-model-view-presenter-eab5b5c16e42
+
+- Scrolling Behavior for Appbars in Android
+http://karthikraj.net/2016/12/24/scrolling-behavior-for-appbars-in-android/
+
+- Generate barcode in android app using Zxing.
+https://medium.com/@aanandshekharroy/generate-barcode-in-android-app-using-zxing-64c076a5d83a
+
+- How to filter a RecyclerView with a SearchView
+https://stackoverflow.com/questions/30398247/how-to-filter-a-recyclerview-with-a-searchview
+
+- Create Popup window
+https://stackoverflow.com/questions/5944987/how-to-create-a-popup-window-popupwindow-in-android
+
+- 
