@@ -73,14 +73,6 @@
 	+ ma_san_pham : int
 	+ da_xoa : int(1)
 
------------------------
-
-- table : ChiTietKhuyenMai
-	+ ma_khuyen_mai : int  (primary key) (foreign key(KhuyenMai))
-	+ ma_sp : int (primary key) (foreign key(SanPham))
-	+ loai_sp : int (primary key) (foreign key(LoaiSanPham))
-	+ bat_buoc_hay_tang : int
-	+ da_xoa : int(1)
 
 -----------------------
 
@@ -110,12 +102,15 @@
 
 - table : Donhang
 	+ ma_don_hang : int (primary key)
+	+ ma_chu : text
 	+ thong_tin_giao_hang : text
 	+ ma_khach_hang
 	+ ngay_lap : text
 	+ khuyen_mai : int (foreign key(KhuyenMai))
 	+ phi_ship : int
 	+ tong_tien : int
+	+ tong_tien_khuyen_mai : int
+	+ phuong_thuc_thanh_toan : int
 	+ ghi_chu : text
 	+ da_xoa : int
 -----------------------
@@ -133,7 +128,6 @@
 
 -----------------------
 - table : ChiTietThucUong
-	+ so_thu_tu : int (primary key)
 	+ ma_chi_tiet : int (foreign key(SanPham))
 	+ ma_san_pham : int
 	+ don_gia : bigint
@@ -143,6 +137,7 @@
 - table : ChiNhanh
 	+ ma_chi_nhanh  : int (primary key)
 	+ ten_chi_nhanh : text
+	+ so_dien_thoai : text
 	+ dia_chi : text
 	+ latiture : text
 	+ longitude : text
@@ -183,16 +178,7 @@
 	+ facebook_id: text
 	+ email: text
 	+ password: text
-	+ remember_token: text
-	+ trang_thai : int(1)
- ----------------------
-
- - table : Quyen
- 	+ ma_so : int (primary key)
- 	+ ma_chu : text
- 	+ ten_quyen : text
- 	+ quyen_he_thong : int --- 1 system , 2 created
- 	+ da_xoa : int(1)
+	+ da_xoa : int(1)
 
  ----------------------
 
@@ -231,3 +217,14 @@
  - table : CamOnDanhGia
  	+ ma_danh_gia : int (primary key)
 	+ tai_khoan : int (foreign key(NguoiDung)) (primary key)
+	
+
+-----------------------
+
+ - table : LichSuDiem
+ 	ma_tai_khoan int primary key,
+	ma_don_hang int foreign key (ma_don_hang) references DonHang(ma_don_hang),
+	so_diem int,
+	hinh_thuc int,
+	thoi_gian datetime,
+	da_xoa int 
