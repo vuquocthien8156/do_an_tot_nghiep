@@ -8,10 +8,10 @@
 	+ ghi_chu : text
 ----------------------
 - table : ChiTietGioHang
- 	+ ma_ct_gio_hang : Int (Primary key)
-	+ ma_gio_hang : Int (foreign key(GioHang))
-	+ ma_san_pham : Int (foreign key)
+	+ ma_gio_hang : Int (foreign key(GioHang)) (Primary key)
+	+ ma_san_pham : Int (foreign key) (Primary key)
 	+ so_luong : Int
+	
 ----------------------
 
 - table : SanPham
@@ -24,7 +24,6 @@
 	+ loai_sp : int (foreign key(LoaiSanPham))
 	+ ngay_ra_mat : text
 	+ hinh_san_pham : text
-	+ so_lan_dat : int
 	+ mo_ta : text
 	+ daxoa : int(1)
 -----------------------
