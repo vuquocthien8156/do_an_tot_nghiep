@@ -1,12 +1,17 @@
 ﻿
 - table : GioHang
-	+ id : Int(Primary key)
-	+ ma_khach_hang : Int 
-	+ ma_san_pham : Int
+	+ ma_gio_hang : Int(Primary key)
+	+ ma_khach_hang : Int (foreign key)
+	+ ma_san_pham : Int (foreign key)
 	+ kich_co : text 
 	+ so_luong : Int
-	+ parent_id : Int (mã sản phẩm cha) (đánh dấu topping)
-
+	+ ghi_chu : text
+----------------------
+- table : ChiTietGioHang
+ 	+ ma_ct_gio_hang : Int (Primary key)
+	+ ma_gio_hang : Int (foreign key(GioHang))
+	+ ma_san_pham : Int (foreign key)
+	+ so_luong : Int
 ----------------------
 
 - table : SanPham
@@ -66,6 +71,7 @@
 	+ ngay_ket_thuc : text
 	+ so_tien_qui_dinh_toi_thieu : int
 	+ hien_slider : boolean
+	+ ma_san_pham : int
 	+ da_xoa : int(1)
 
 -----------------------
@@ -105,14 +111,14 @@
 
 - table : Donhang
 	+ ma_don_hang : int (primary key)
-	+ ma_giao_hang : int (foreign key(ThongTinGiaoHang))
+	+ thong_tin_giao_hang : text
 	+ ma_khach_hang
 	+ ngay_lap : text
 	+ khuyen_mai : int (foreign key(KhuyenMai))
 	+ phi_ship : int
 	+ tong_tien : int
 	+ ghi_chu : text
-
+	+ da_xoa : int
 -----------------------
 
 - table : ChiTietDonHang
@@ -124,13 +130,19 @@
 	+ kich_co : text --- S , M , L
 	+ gia_khuyen_mai : bigint
 	+ thanh_tien : bigint
-	+ parent_id : int 
 	+ ghi_chu : text
 
 -----------------------
+- table : ChiTietThucUong
+	+ so_thu_tu : int (primary key)
+	+ ma_chi_tiet : int (foreign key(SanPham))
+	+ ma_san_pham : int
+	+ don_gia : bigint
+	+ so_luong : int
+-----------------------
 
 - table : ChiNhanh
-	+ ma_chi_nhanh  : int
+	+ ma_chi_nhanh  : int (primary key)
 	+ ten_chi_nhanh : text
 	+ dia_chi : text
 	+ latiture : text
@@ -138,8 +150,14 @@
 	+ ngay_khai_truong : text
 	+ gio_mo_cua : text
 	+ gio_dong_cua : text
+	+ ma_khu_vuc : int
 	+ da_xoa : int(1)
-
+	
+-----------------------
+- table : Khu_Vuc
+	+ ma_khu_vuc : int (primary key)
+	+ ten_khu_vuc : text
+	+ da_xoa : int(1)
 -----------------------
 
 - table : SoDiaChi
@@ -195,11 +213,20 @@
 	+ tieu_de : text
  	+ noi_dung : text
  	+ thoi_gian : text
- 	+ hinh_anh : text
- 	+ parent_id : int --- Đây là bình luận phải hồi của ...
 	+ duyet : int(1)
  	+ da_xoa : int(1)
  	
+-----------------------
+
+ - table : DanhGiaCon
+ 	+ ma_danh_gia_con : int (primary key)
+	+ ma_danh_gia : int (foreign key(DanhGia))
+	+ tai_khoan : int (foreign key(NguoiDung))
+	+ noi_dung : text
+	+ thoi_gian : text
+	+ duyet : int(1)
+	+ da_xoa : int(1)
+
 -----------------------
 
  - table : CamOnDanhGia
