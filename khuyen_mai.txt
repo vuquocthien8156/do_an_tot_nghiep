@@ -1,0 +1,21 @@
+Xóa bảng chi tiết KM ...
+
+*note
++ limit_code = 0 thỳ mã này không giới hạn
+
+ Đơn hàng :
+% cho tổng đơn hàng (Nhập %)
+
+% cho tổng đơn hàng với so_tien_toi_thieu mới đc giảm (Nhập % , số tiền tối thiểu)
+
+tiền cho tổng đơn hàng (Nhập số tiền) 
+
+tiền cho tổng đơn hàng so_tien_toi_thieu (nhập số tiền , số tiền tối thiểu của đơn hàng thỳ mới đc giảm)
+
+mua m sp tặng m sp (m , n là số lượng) với số tiền tối thiểu cho đơn hàng
+
+-- thêm cột trong bảng KM (ma_san_pham)
+để giảm tiền chính xác cho 1 sp
+
+cơ bản là v có thể thêm nhiều KM bằng cách kết hợp các cột
+

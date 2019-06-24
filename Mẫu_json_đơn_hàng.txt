@@ -1,0 +1,137 @@
+
+// Giỏ hàng nhận --- Nhận từ web xuống app  (Gửi mã KH xuống)
+[
+	status:
+	error:
+	gio_hang : [
+					idGH :
+					ma_sp :
+					ten_sp :
+					gia_sp : // Thông tin sp lấy từ bảng sp
+					gia_M :
+					gia_L :
+					loai_chinh :
+					hinh_anh :
+					so_luong :
+					size :
+					note :
+					topping(Chi tiết giỏ hàng) : {
+						[ 	// Thông tin sp lấy từ bảng sp
+							ma_san_pham :
+							ten_san_pham:
+							gia_san_pham : 
+							so_luong :
+						],
+						[
+						]
+					}
+				]
+]
+
+// Giỏ hàng gửi xuống  --- Gửi từ app xuống web 
+
+[
+	ma_kh :
+	object :[
+				Như trên;
+			]
+]
+
+New -- Vì thầy nói xử lý dưới server nhanh hơn nên
+ server sẽ Check tồn tại thỳ mới thêm xuống không thỳ tăng số lượng lên
+	Các điều kiện để thêm mới: 
+		Trong bảng giỏ hàng : (Xài lệnh if dưới DB là nhanh nhất)
+			+ Khác Mã KH or Mã sp or Size
+		Nếu trùng Mã KH vào Mã sp và Size thỳ đem mã GH so sánh sang bảng chi tiết giỏ hàng
+			+ Khác mã sp or số lượng 
+
+New // Update topping cho 1 sp trong cart (Xóa tất cả topping cũ add topping mới) (gửi xuống 1 object) --- Qui định 1 sp chỉ có 3 toping nên không nặng lắm đâu
+[
+	ma_gio_hang :
+	topping : {
+				[
+					ma_san_pham :
+					ten_san_pham:
+					gia_san_pham : 
+					so_luong :
+				],
+				[]
+			  }
+]
+
+
+------------------------------------------------------------------------------------------
+
+// Đơn hàng nhận --- Nhận từ web xuống app (Gửi mã KH xuống)
+{
+	status :
+	error :
+	don_hang: {
+					[
+						+ ma_don_hang : 
+						+ ma_khach_hang : [
+											Ten :
+											Sdt :
+											dia chỉ:
+										  ]
+						+ ngay_lap : 
+						+ khuyen_mai : 
+						+ phi_ship : 
+						+ tong_tien : 
+						+ ghi_chu :
+						+ trang_thai(Lấy trong chi tiết trạng thái) : {
+											[
+												ten :
+										   		time :
+											]
+										 
+									   }
+					],
+					[]
+			  }
+}
+
+Danh sách trạng thái mặc định
+	- Đơn hàng mới
+	- Nhận đơn hàng
+	- Chuẩn bị thức uống
+	- Đang giao hàng
+	- Đã hoàn thành
+sẽ được nhân viên check và lưu vào bảng chi tiết trạng thái
+
+New //Lấy chi tiết đơn hàng --- Nhận từ web xuống app (Gửi mã đơn hàng để lấy chi tiết)
+	 
+[
+	status : 
+	error :
+	chi_tiet : {
+					[
+						+ ma_chi_tiet :
+					    + ma_san_pham :
+					    + ten_san_pham :
+						+ so_luong : int
+						+ don_gia : bigint
+						+ kich_co : text --- S , M , L
+						+ gia_khuyen_mai : bigint
+						+ thanh_tien : bigint
+						+ ghi_chu : text
+					  	+ topping(trong bảng chi tiết thức uống) :
+					   				{
+					   					+ ma_san_pham :
+					    				+ ten_san_pham :
+										+ so_luong : int
+										+ don_gia : bigint
+									}
+					],
+					[
+						...
+					],
+					[
+						...
+					],
+					[
+						...
+					]
+				
+			   }
+]
