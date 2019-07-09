@@ -1,4 +1,0 @@
-Không được bỏ trống
-Email đúng chuẩn
-Pass > 3 ký tự
-
